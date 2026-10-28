@@ -1,0 +1,39 @@
+[env_conf]
+# Is the chest random, boolean, false - fixed chest, true - random chest.
+# If fixed is enabled, use treasure_id to generate fixed chests.
+# If random is enabled, use treasure_count to randomly generate chests.
+# 宝箱是否随机，布尔值，false - 固定宝箱，true - 随机宝箱。
+# 若开启固定，则使用treasure_id生成固定宝箱。
+# 若开启随机，则使用treasure_count随机生成宝箱。
+treasure_random = false
+
+# Integer, 0~10, -1 indicates random.
+# Description: Number of chests.
+# 整型，取值范围0~10，-1表示随机。
+# 宝箱数量。
+treasure_count = 0
+
+# Chest ID, an array, ID range: 1~10.
+# Description: configures the fixed chest IDs.
+# 宝箱id，数组，id取值范围：1~10。
+# 配置固定宝箱的id。
+treasure_id = []
+
+# Integer, Value range: 0, 1000~3600, -1 indicates random.
+# Description: Monster's movement speed (with the agent's movement speed being 3600mm/s).
+# 整型，取值范围，0, 1000～3600，-1表示随机。
+# 怪物移动速度（智能体移速为3600mm/s）。
+monster_speed = 1000
+
+# Integer, Value range: 0~500, -1 indicates random.
+# Description: The interval before the second monster appears,
+# i.e., after how many steps the second monster appears.
+# 整型，取值范围0~500，-1表示随机。
+# 第二个怪物出现间隔，即从多少步开始，出现第二个怪物。
+monster_interval = 300
+
+# Integer, Value range: 1~2000, default: 2000.
+# Description: Max step.
+# 整型，取值范围1~2000，默认2000。
+# 最大步数。
+max_step = 2000

@@ -1,0 +1,51 @@
+{
+  "id": "CO02",
+  "category": "04_三维高度空中走廊",
+  "arxiv": "2208.06950",
+  "keywords": "temporal safe corridor;动态障碍;时空占用",
+  "relevance": "把航道占用和障碍运动纳入时间维；支持路口预约/换层冲突建模。",
+  "source_page": "https://arxiv.org/abs/2208.06950",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Toumieh, Charbel; Lambert, Alain",
+  "year": "2022",
+  "title": "Multirotor Planning in Dynamic Environments using Temporal Safe Corridors",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "04_三维高度空中走廊/CO02_2022_2208.06950.pdf",
+  "pdf_pages": 6,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2208.06950",
+      "http": 200,
+      "bytes": 873669
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:20.15332",
+  "arxiv_version": "2208.06950",
+  "journal_reference": "",
+  "abstract": "Abstract: In this paper, we propose a new method for multirotor planning in dynamic environments. The environment is represented as a temporal occupancy grid which gives the current as well as the future/predicted state of all the obstacles. The method builds on previous works in Safe Corridor generation and multirotor planning to avoid moving and static obstacles. It first generates a global path to the goal that doesn't take into account the dynamic aspect of the environment. We then use temporal Safe Corridors to generate safe spaces that the robot can be in at discrete instants in the future. Finally we use the temporal Safe Corridors in an optimization formulation that accounts for the multirotor dynamics as well as all the obstacles to generate the trajectory that will be executed by the multirotor's controller. We show the performance of our method in simulations.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\CO02_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2208.06950",
+  "text_chars_total": 26748,
+  "text_pages": 6,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\CO02_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "29063106c6b2be122b192f6b60c8370fd143a7ae8de9f2f6a336d1dbe67ce3d8",
+  "bytes": 873669,
+  "canonical_category": "04_三维高度空中走廊",
+  "openalex_id": "https://openalex.org/W4292199889",
+  "openalex_title": "Multirotor Planning in Dynamic Environments using Temporal Safe Corridors",
+  "openalex_year": 2022,
+  "openalex_authors": "Charbel Toumieh; Alain Lambert"
+}

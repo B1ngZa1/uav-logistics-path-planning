@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# 数据文件
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# 模型文件
+*.pth
+*.pt
+*.onnx
+*.pb
+
+# 日志文件
+*.log
+logs/
+
+# 图片文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 数据库
+*.db
+
+# PDF
+*.pdf
+
+# JavaScript dependencies and caches
+node_modules/
+.npm/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local generated output and temporary files
+/outputs/
+/tmp/
+/data/cache/
+*.inspect.ndjson
+*.tmp
+*.bak
+~$*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519

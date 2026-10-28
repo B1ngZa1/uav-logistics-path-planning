@@ -1,0 +1,51 @@
+{
+  "id": "RE05",
+  "category": "06_综述基准",
+  "arxiv": "2502.12875",
+  "keywords": "DRL;UAV;communications;survey",
+  "relevance": "通信和轨迹联合优化综述；通信指标不能等同于配送效率。",
+  "source_page": "https://arxiv.org/abs/2502.12875",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Zhao, Wei; Cui, Shaoxin; Qiu, Wen; He, Zhiqiang; Liu, Zhi; Zheng, Xiao; Mao, Bomin; Kato, Nei",
+  "year": "2025",
+  "title": "A Survey on DRL based UAV Communications and Networking: DRL Fundamentals, Applications and Implementations",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE05_2025_2502.12875.pdf",
+  "pdf_pages": 30,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2502.12875",
+      "http": 200,
+      "bytes": 13073854
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:27.671746",
+  "arxiv_version": "2502.12875",
+  "journal_reference": "",
+  "abstract": "Abstract: Unmanned aerial vehicles (UAVs) are playing an increasingly pivotal role in modern communication networks,offering flexibility and enhanced coverage for a variety of applica-tions. However, UAV networks pose significant challenges due to their dynamic and distributed nature, particularly when dealing with tasks such as power allocation, channel assignment, caching,and task offloading. Traditional optimization techniques often struggle to handle the complexity and unpredictability of these environments, leading to suboptimal performance. This survey provides a comprehensive examination of how deep reinforcement learning (DRL) can be applied to solve these mathematical optimization problems in UAV communications and this http URL than simply introducing DRL methods, the focus is on demonstrating how these methods can be utilized to solve complex mathematical models of the underlying problems. We begin by reviewing the fundamental concepts of DRL, including value-based, policy-based, and actor-critic approaches. Then,we illustrate how DRL algorithms are applied to specific UAV network tasks by discussing from problem formulations to DRL implementation. By framing UAV communication challenges as optimization problems, this survey emphasizes the practical value of DRL in dynamic and uncertain environments. We also explore the strengths of DRL in handling large-scale network scenarios and the ability to continuously adapt to changes in the environment. In addition, future research directions are outlined, highlighting the potential for DRL to further enhance UAV communications and expand its applicability to more complex,multi-agent settings.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE05_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2502.12875",
+  "text_chars_total": 177532,
+  "text_pages": 30,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE05_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "87eafb53357a232169fdb64a4be6dfd017e9cef34115b6e349b68c337e78e7d1",
+  "bytes": 13073854,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W4407759776",
+  "openalex_title": "A Survey on DRL based UAV Communications and Networking: DRL Fundamentals, Applications and Implementations",
+  "openalex_year": 2025,
+  "openalex_authors": "Wei Zhao; Shaoxin Cui; Wen Qiu; Zhaohui He; Zhi Liu; Xiao Zheng; Bomin Mao; Nei Kato"
+}

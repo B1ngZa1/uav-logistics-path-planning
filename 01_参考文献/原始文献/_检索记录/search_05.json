@@ -1,0 +1,157 @@
+{
+  "query": "UAV hybrid reinforcement learning path planning",
+  "timestamp": "2026-09-17T16:56:24.598082",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "UAV hybrid reinforcement learning path planning",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Optimizing UAV-UGV coalition operations: A hybrid clustering and multi-agent reinforcement learning approach for path planning in obstructed environment",
+        "authors": [
+          "Shamyo Brotee",
+          "Farhan Kabir",
+          "Md. Abdur Razzaque",
+          "et al."
+        ],
+        "year": 2024,
+        "citations": 38,
+        "doi": "10.1016/j.adhoc.2024.103519",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.adhoc.2024.103519"
+      },
+      {
+        "title": "Optimize Path Planning for UAV COVID-19 Test Kits Delivery System by Hybrid Reinforcement Learning",
+        "authors": [],
+        "year": 2022,
+        "citations": 0,
+        "doi": "10.1109/ccwc54503.2022.9720893",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/ccwc54503.2022.9720893"
+      },
+      {
+        "title": "Multi-objective particle swarm optimization with multi-mode collaboration based on reinforcement learning for path planning of unmanned air vehicles",
+        "authors": [
+          "Xiangyin Zhang",
+          "Shuang Xia",
+          "Xiuzhi Li",
+          "et al."
+        ],
+        "year": 2022,
+        "citations": 139,
+        "doi": "10.1016/j.knosys.2022.109075",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.knosys.2022.109075"
+      },
+      {
+        "title": "A review of artificial intelligence applied to path planning in UAV swarms",
+        "authors": [
+          "Alejandro Puente-Castro",
+          "Daniel Rivero",
+          "Alejandro Pazos",
+          "et al."
+        ],
+        "year": 2021,
+        "citations": 235,
+        "doi": "10.1007/s00521-021-06569-4",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1007/s00521-021-06569-4"
+      },
+      {
+        "title": "Deep Reinforcement Learning Based Dynamic Trajectory Control for UAV-Assisted Mobile Edge Computing",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/tmc.2021.3059691",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tmc.2021.3059691"
+      },
+      {
+        "title": "Toward Autonomous Multi-UAV Wireless Network: A Survey of Reinforcement Learning-Based Approaches",
+        "authors": [],
+        "year": 2023,
+        "citations": 0,
+        "doi": "10.1109/comst.2023.3323344",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/comst.2023.3323344"
+      },
+      {
+        "title": "A review: On path planning strategies for navigation of mobile robot",
+        "authors": [],
+        "year": 2019,
+        "citations": 0,
+        "doi": "10.1016/j.dt.2019.04.011",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.dt.2019.04.011"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 7,
+      "filtered_irrelevant": 3,
+      "collapsed_duplicates": 0
+    }
+  }
+}

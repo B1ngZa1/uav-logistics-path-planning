@@ -1,0 +1,31 @@
+[policy_gradient]
+actor_agent = "agent_policy_gradient.agent.Agent"
+learner_agent = "agent_policy_gradient.agent.Agent"
+aisrv_agent = "agent_policy_gradient.agent.Agent"
+train_workflow = "agent_policy_gradient.workflow.train_workflow.workflow"
+eval_workflow = "tools.eval.workflow.eval_workflow.workflow"
+exam_workflow = "tools.eval.workflow.exam_workflow.workflow"
+
+[a2c]
+actor_agent = "agent_a2c.agent.Agent"
+learner_agent = "agent_a2c.agent.Agent"
+aisrv_agent = "agent_a2c.agent.Agent"
+train_workflow = "agent_a2c.workflow.train_workflow.workflow"
+eval_workflow = "tools.eval.workflow.eval_workflow.workflow"
+exam_workflow = "tools.eval.workflow.exam_workflow.workflow"
+
+[ppo]
+actor_agent = "agent_ppo.agent.Agent"
+learner_agent = "agent_ppo.agent.Agent"
+aisrv_agent = "agent_ppo.agent.Agent"
+train_workflow = "agent_ppo.workflow.train_workflow.workflow"
+eval_workflow = "tools.eval.workflow.eval_workflow.workflow"
+exam_workflow = "tools.eval.workflow.exam_workflow.workflow"
+
+[diy]
+actor_agent = "agent_diy.agent.Agent"
+learner_agent = "agent_diy.agent.Agent"
+aisrv_agent = "agent_diy.agent.Agent"
+train_workflow = "agent_diy.workflow.train_workflow.workflow"
+eval_workflow = "tools.eval.workflow.eval_workflow.workflow"
+exam_workflow = "tools.eval.workflow.exam_workflow.workflow"

@@ -1,0 +1,48 @@
+[env_conf]
+# The depot / distribution center coordinates.
+# Array containing two integer elements [x, y], each coordinate ranges from 0 to 39.
+# 配送中心/仓库坐标。
+# 数组，包含两个整数元素[x, y]，每个坐标取值范围为0~39。
+depot = [30, 10]
+
+# Merchant coordinates (pickup locations for food orders).
+# Array of [x, y] coordinate pairs, one per merchant.
+# 商家坐标（取餐点）。
+# [x, y]坐标对数组，每个商家一个。
+merchants = [
+    [16, 17],
+    [22, 15],
+    [14, 12],
+    [25, 18],
+    [18, 24],
+]
+
+# Delivery point coordinates (drop-off locations for customers).
+# Array of [x, y] coordinate pairs, one per delivery point.
+# 配送点坐标（顾客收货点）。
+# [x, y]坐标对数组，每个配送点一个。
+delivery_points = [
+    [20, 25],
+    [28, 22],
+    [10, 20],
+    [32, 12],
+    [16, 17],
+]
+
+# Number of orders to deliver.
+# Integer, range: 1~10.
+# 需要配送的订单数量。
+# 整型，取值范围为1~10。
+num_orders = 5
+
+# Grid size of the map (grid is grid_size x grid_size).
+# Integer, default: 40.
+# 地图网格尺寸（网格为 grid_size x grid_size）。
+# 整型，默认值：40。
+grid_size = 40
+
+# Maximum steps per episode.
+# Integer, range: 1~2000.
+# 每回合最大步数。
+# 整型，取值范围1~2000。
+max_steps = 500

@@ -1,0 +1,52 @@
+{
+  "id": "PA01",
+  "category": "03_多算法路径规划",
+  "arxiv": "1809.03531",
+  "keywords": "PRIMAL;模仿学习;强化学习;MAPF",
+  "relevance": "比较规划专家示范与RL融合；离散MAPF向三维动力学迁移需另验证。",
+  "source_page": "https://arxiv.org/abs/1809.03531",
+  "sources": [
+    "arxiv",
+    "official_publication"
+  ],
+  "cross_validated": true,
+  "doi": "10.1109/LRA.2019.2903261",
+  "authors": "Sartoretti, Guillaume; Kerr, Justin; Shi, Yunfei; Wagner, Glenn; Kumar, T. K. Satish; Koenig, Sven; Choset, Howie",
+  "year": "2018",
+  "title": "PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "03_多算法路径规划/PA01_2018_1809.03531.pdf",
+  "pdf_pages": 9,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页与第二来源页/DOI页题名、作者、年份一致；PDF为公开版本; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1809.03531",
+      "http": 200,
+      "bytes": 1847864
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:11.355054",
+  "arxiv_version": "1809.03531",
+  "journal_reference": "",
+  "abstract": "Abstract: Multi-agent path finding (MAPF) is an essential component of many large-scale, real-world robot deployments, from aerial swarms to warehouse automation. However, despite the community's continued efforts, most state-of-the-art MAPF planners still rely on centralized planning and scale poorly past a few hundred agents. Such planning approaches are maladapted to real-world deployments, where noise and uncertainty often require paths be recomputed online, which is impossible when planning times are in seconds to minutes. We present PRIMAL, a novel framework for MAPF that combines reinforcement and imitation learning to teach fully-decentralized policies, where agents reactively plan paths online in a partially-observable world while exhibiting implicit coordination. This framework extends our previous work on distributed learning of collaborative policies by introducing demonstrations of an expert MAPF planner during training, as well as careful reward shaping and environment sampling. Once learned, the resulting policy can be copied onto any number of agents and naturally scales to different team sizes and world dimensions. We present results on randomized worlds with up to 1024 agents and compare success rates against state-of-the-art MAPF planners. Finally, we experimentally validate the learned policies in a hybrid simulation of a factory mockup, involving both real-world and simulated robots.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\PA01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1809.03531",
+  "text_chars_total": 46657,
+  "text_pages": 9,
+  "title_pdf_match": false,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\PA01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "ca194b8aec88ebd43e11f41540214ab93a1a6a501d137bdfded018e8877cae1a",
+  "bytes": 1847864,
+  "canonical_category": "03_多算法路径规划",
+  "openalex_id": "https://openalex.org/W6892048105",
+  "openalex_title": "PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning",
+  "openalex_year": 2018,
+  "openalex_authors": "Sartoretti, Guillaume; Kerr, Justin; Shi, Yunfei; Wagner, Glenn; Kumar, T. K. Satish; Koenig, Sven; Choset, Howie"
+}

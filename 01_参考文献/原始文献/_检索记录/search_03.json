@@ -1,0 +1,159 @@
+{
+  "query": "multi UAV MATD3 trajectory planning",
+  "timestamp": "2026-09-17T16:56:16.473394",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "multi UAV MATD3 trajectory planning",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Multi-UAV Adaptive Cooperative Formation Trajectory Planning Based on an Improved MATD3 Algorithm of Deep Reinforcement Learning",
+        "authors": [],
+        "year": 2024,
+        "citations": 0,
+        "doi": "10.1109/tvt.2024.3389555",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tvt.2024.3389555"
+      },
+      {
+        "title": "An Improved MATD3-Based Algorithm for Cooperative Autonomous Obstacle Avoidance and Trajectory Planning in Multi-UAV Systems",
+        "authors": [],
+        "year": 2025,
+        "citations": 0,
+        "doi": "10.1109/ddcls66240.2025.11065094",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/ddcls66240.2025.11065094"
+      },
+      {
+        "title": "Multi-UAV Rendezvous Trajectory Planning Based on Improved MADDPG Algorithm in Complex Dynamic Obstacle Environments",
+        "authors": [],
+        "year": 2025,
+        "citations": 0,
+        "doi": "10.1109/tvt.2025.3624052",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tvt.2025.3624052"
+      },
+      {
+        "title": "A Survey on Multi-UAV Path Planning: Classification, Algorithms, Open Research Problems, and Future Directions",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones9040263",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones9040263"
+      },
+      {
+        "title": "Multi-UAV Assisted Air–Ground Collaborative MEC System: DRL-Based Joint Task Offloading and Resource Allocation and 3D UAV Trajectory Optimization",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones8090510",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones8090510"
+      },
+      {
+        "title": "A Comprehensive Review of Path-Planning Algorithms for Multi-UAV Swarms",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones10010011",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones10010011"
+      },
+      {
+        "title": "Scalable and Cooperative Deep Reinforcement Learning Approaches for Multi-UAV Systems: A Systematic Review",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones7040236",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones7040236"
+      },
+      {
+        "title": "Task offloading and resource allocation for multi-UAV asset edge computing with multi-agent deep reinforcement learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.1007/s00607-025-01472-5",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1007/s00607-025-01472-5"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 8,
+      "filtered_irrelevant": 2,
+      "collapsed_duplicates": 0
+    }
+  }
+}

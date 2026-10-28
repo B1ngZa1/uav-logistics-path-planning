@@ -1,0 +1,52 @@
+{
+  "id": "MA02",
+  "category": "02_MARL协同",
+  "arxiv": "1706.02275",
+  "keywords": "MADDPG;CTDE;集中式critic",
+  "relevance": "建立集中训练、分散执行和局部观测的形式化框架。",
+  "source_page": "https://arxiv.org/abs/1706.02275",
+  "sources": [
+    "arxiv",
+    "official_publication"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Lowe, Ryan; Wu, Yi; Tamar, Aviv; Harb, Jean; Abbeel, Pieter; Mordatch, Igor",
+  "year": "2017",
+  "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "02_MARL协同/MA02_2017_1706.02275.pdf",
+  "pdf_pages": 16,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页与第二来源页/DOI页题名、作者、年份一致；PDF为公开版本; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1706.02275",
+      "http": 200,
+      "bytes": 1502182
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:08.332703",
+  "arxiv_version": "1706.02275",
+  "journal_reference": "",
+  "abstract": "Abstract: We explore deep reinforcement learning methods for multi-agent domains. We begin by analyzing the difficulty of traditional algorithms in the multi-agent case: Q-learning is challenged by an inherent non-stationarity of the environment, while policy gradient suffers from a variance that increases as the number of agents grows. We then present an adaptation of actor-critic methods that considers action policies of other agents and is able to successfully learn policies that require complex multi-agent coordination. Additionally, we introduce a training regimen utilizing an ensemble of policies for each agent that leads to more robust multi-agent policies. We show the strength of our approach compared to existing methods in cooperative as well as competitive scenarios, where agent populations are able to discover various physical and informational coordination strategies.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\MA02_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1706.02275",
+  "text_chars_total": 51676,
+  "text_pages": 16,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\MA02_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "dcbf258875023a4739a266697b3d7377dabfe10993ccef864fd5cc9373027e6e",
+  "bytes": 1502182,
+  "canonical_category": "02_MARL协同",
+  "openalex_id": "https://openalex.org/W2623431351",
+  "openalex_title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+  "openalex_year": 2017,
+  "openalex_authors": "Ryan Lowe; Yi Wu; Aviv Tamar; Jean Harb; Pieter Abbeel; Igor Mordatch"
+}

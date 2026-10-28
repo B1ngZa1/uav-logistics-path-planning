@@ -1,0 +1,42 @@
+[env_conf]
+# =============================================================================
+# 无人机配送 — DQN 环境配置
+# Drone Delivery — DQN Environment Configuration
+#
+# DQN 使用经验回放, 需要较长的回合步数来积累足够的训练样本。
+# DQN uses experience replay; longer episode steps help accumulate
+# sufficient training samples in the replay buffer.
+#
+# 参考 / Reference:
+#     agent_q_learning/conf/train_env_conf.toml
+#     agent_diy/conf/train_env_conf.toml
+# =============================================================================
+
+# 配送中心坐标 [x, y] — 无人机起始位置和全部完成后返回的位置
+# Depot coordinates [x, y] — drone start and return position after all deliveries
+depot = [30, 10]
+
+# 最大步数 — DQN 需要较长的回合来积累 replay buffer 样本
+# Maximum steps per episode — DQN needs longer episodes to fill replay buffer
+# 整型, 取值范围 1~2000 / Integer, range 1~2000
+max_steps = 800
+
+# 最小订单数 — 每个回合随机生成的订单数下限
+# Minimum number of orders — lower bound for random orders per episode
+# 整型, 取值范围 1~10 / Integer, range 1~10
+min_orders = 4
+
+# 最大订单数 — 每个回合随机生成的订单数上限
+# Maximum number of orders — upper bound for random orders per episode
+# 整型, 取值范围 1~10 / Integer, range 1~10
+max_orders = 8
+
+# 最大携带量 — 无人机同时最多可携带的订单数
+# Maximum carrying capacity — max orders the drone can carry simultaneously
+# 整型, 取值范围 1~5 / Integer, range 1~5
+max_carry = 2
+
+# 网格尺寸 — 地图为 grid_size × grid_size
+# Grid size — map is grid_size × grid_size
+# 整型, 固定值 / Integer, fixed value
+grid_size = 40

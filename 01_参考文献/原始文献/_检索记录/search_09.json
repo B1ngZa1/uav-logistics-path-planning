@@ -1,0 +1,129 @@
+{
+  "query": "safe reinforcement learning multi agent barrier",
+  "timestamp": "2026-09-17T16:56:50.325004",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "safe reinforcement learning multi agent barrier",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Safe robust multi-agent reinforcement learning with neural control barrier functions and safety attention mechanism",
+        "authors": [
+          "Shihan Liu",
+          "Lijun Liu",
+          "Zhen Yu"
+        ],
+        "year": 2024,
+        "citations": 8,
+        "doi": "10.1016/j.ins.2024.121567",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.ins.2024.121567"
+      },
+      {
+        "title": "Safe Multi-Agent Reinforcement Learning through Decentralized Multiple Control Barrier Functions",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/2103.12553"
+      },
+      {
+        "title": "Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/1610.03295"
+      },
+      {
+        "title": "Multi-Agent Deep Reinforcement Learning for Multi-Robot Applications: A Survey",
+        "authors": [],
+        "year": 2004,
+        "citations": 0,
+        "doi": "10.3390/s23073625",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/s23073625"
+      },
+      {
+        "title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.1146/annurev-control-042920-020211",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1146/annurev-control-042920-020211"
+      },
+      {
+        "title": "Reinforcement Learning: A Survey",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.1613/jair.301",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1613/jair.301"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 6,
+      "filtered_irrelevant": 4,
+      "collapsed_duplicates": 0
+    }
+  }
+}

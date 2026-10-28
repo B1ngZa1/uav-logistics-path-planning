@@ -1,0 +1,50 @@
+# 无人机外卖配送 — 全局训练配置
+# Drone Food Delivery — Global Training Configuration
+
+[app]
+# 经验回放缓冲区容量 / Experience replay buffer capacity
+replay_buffer_capacity = 100000
+
+# 预加载比例（预填充缓冲区） / Preload ratio (pre-fill buffer)
+preload_ratio = 0.1
+
+# 训练批次大小 / Training batch size
+train_batch_size = 256
+
+# 模型保存频率（每N回合） / Model save frequency (every N episodes)
+dump_model_freq = 100
+
+# 模型文件同步间隔（分钟） / Model file sync interval (minutes)
+model_file_sync_per_minutes = 1
+
+# 模型池最大保存数量 / Model pool max save count
+modelpool_max_save_model_count = 5
+
+# 预加载模型开关（true/false） / Preload model switch
+preload_model = false
+
+# 预加载模型目录 / Preload model directory
+preload_model_dir = ""
+
+# 预加载模型ID / Preload model ID
+preload_model_id = "0"
+
+# 算法类型（on-policy / off-policy）
+# Algorithm type (on-policy or off-policy)
+# Q-learning/SARSA/DQN = off-policy，MC/A2C/PPO = on-policy
+algorithm_on_policy_or_off_policy = "off-policy"
+
+# Reverb采样器配置 / Reverb sampler configuration
+reverb_sampler = "reverb.selectors.Uniform"
+
+# Reverb移除器配置 / Reverb remover configuration
+reverb_remover = "reverb.selectors.Fifo"
+
+# Reverb速率限制器 / Reverb rate limiter
+reverb_rate_limiter = "reverb.rate_limiters.MinSize"
+
+# Reverb每次插入采样数 / Reverb samples per insert
+reverb_samples_per_insert = 2
+
+# Reverb错误缓冲区大小 / Reverb error buffer size
+reverb_error_buffer = 1000

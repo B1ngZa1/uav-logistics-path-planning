@@ -1,0 +1,35 @@
+{
+  "description": "武汉学院Zone B 2D网格地图数据 / Zone B 2D Grid Map Data",
+  "grid_size": 40,
+  "cell_resolution_m": 5.0,
+  "depot": [30, 10],
+  "merchants": [
+    {"id": 0, "name": "图书馆", "pos": [16, 17]},
+    {"id": 1, "name": "学生食堂", "pos": [22, 15]},
+    {"id": 2, "name": "校医院", "pos": [14, 12]},
+    {"id": 3, "name": "快递驿站", "pos": [25, 18]},
+    {"id": 4, "name": "咖啡厅", "pos": [18, 24]}
+  ],
+  "delivery_points": [
+    {"id": 0, "name": "教学区", "pos": [20, 25]},
+    {"id": 1, "name": "宿舍区", "pos": [28, 22]},
+    {"id": 2, "name": "运动场", "pos": [10, 20]},
+    {"id": 3, "name": "行政楼", "pos": [32, 12]},
+    {"id": 4, "name": "图书馆", "pos": [16, 17]}
+  ],
+  "obstacles": {
+    "teaching_buildings": {"type": "rect", "x": [14, 18], "y": [14, 20]},
+    "dormitories": {"type": "rect", "x": [26, 30], "y": [20, 24]},
+    "lake": {"type": "rect", "x": [8, 12], "y": [4, 8]},
+    "power_line": {"type": "line", "x": [22, 22], "y": [12, 16]},
+    "small_buildings": [
+      {"type": "rect", "x": [6, 7], "y": [22, 23]},
+      {"type": "rect", "x": [19, 20], "y": [10, 11]}
+    ]
+  },
+  "no_fly_zones": [
+    {"name": "湖面低空禁飞", "type": "rect", "x": [8, 12], "y": [4, 8], "reason": "水面迫降风险"},
+    {"name": "电力线穿越区", "type": "line", "x": [22, 22], "y": [12, 16], "reason": "高压线碰撞风险"}
+  ],
+  "boundary": {"type": "hard", "description": "地图外围不可通行"}
+}

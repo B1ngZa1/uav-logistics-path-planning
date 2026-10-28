@@ -1,0 +1,21 @@
+{
+  "id": "RL05",
+  "category": "强化学习",
+  "year": "2023",
+  "title": "Multi-UAV Adaptive Path Planning Using Deep Reinforcement Learning",
+  "authors": "Westheider, Jonas; Rückin, Julius; Popović, Marija",
+  "keywords": "多无人机;三维工作空间;informative path planning;counterfactual baseline",
+  "relevance": "为三维多无人机信息路径规划提供反事实信用分配与团队规模迁移基线。",
+  "arxiv": "2303.01150",
+  "doi": "",
+  "source_page": "https://arxiv.org/abs/2303.01150",
+  "pdf_path": "01_RL/Multi-UAV_Adaptive_Path_Planning_Using_Deep_Reinforcement_Learning.pdf",
+  "canonical_category": "01_RL",
+  "pdf_pages": 8,
+  "pdf_readability": "通过",
+  "sha256": "3f206a82cc5c83c00dc4fd77308586ea657c22d9f488508c3264a852d0838a53",
+  "pdf_status": "可读-逐页文本提取成功",
+  "openalex_id": "https://openalex.org/W4389666571",
+  "cross_validated": true,
+  "verification": "OpenAlex标题/年份与公开来源匹配"
+}

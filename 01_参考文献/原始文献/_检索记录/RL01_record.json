@@ -1,0 +1,49 @@
+{
+  "id": "RL01",
+  "category": "01_RL",
+  "arxiv": "1707.06347",
+  "keywords": "PPO;on-policy;连续动作",
+  "relevance": "单机PPO基线与MAPPO策略更新基础；不是无人机实证。",
+  "source_page": "https://arxiv.org/abs/1707.06347",
+  "sources": [
+    "arxiv",
+    "official_publication"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Schulman, John; Wolski, Filip; Dhariwal, Prafulla; Radford, Alec; Klimov, Oleg",
+  "year": "2017",
+  "title": "Proximal Policy Optimization Algorithms",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "01_RL/RL01_2017_1707.06347.pdf",
+  "pdf_pages": 12,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页与第二来源页/DOI页题名、作者、年份一致；PDF为公开版本; OpenAlex标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1707.06347",
+      "http": 200,
+      "bytes": 2923532
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:06.347735",
+  "arxiv_version": "1707.06347",
+  "journal_reference": "",
+  "abstract": "Abstract: We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a \"surrogate\" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RL01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1707.06347",
+  "text_chars_total": 27068,
+  "text_pages": 12,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RL01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "e78feadadbdbb0b601b3c2bcc81404722cd431a489b307545f9b7bea1e8c4f5b",
+  "bytes": 2923532,
+  "canonical_category": "01_RL",
+  "openalex_id": "https://openalex.org/W4308797462"
+}

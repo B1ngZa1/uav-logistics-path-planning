@@ -1,0 +1,51 @@
+{
+  "id": "RE01",
+  "category": "06_综述基准",
+  "arxiv": "2108.06266",
+  "keywords": "safe RL;MPC;CBF;综述",
+  "relevance": "厘清安全学习、鲁棒控制和可验证安全的区别，支持综述结构。",
+  "source_page": "https://arxiv.org/abs/2108.06266",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Brunke, Lukas; Greeff, Melissa; Hall, Adam W.; Yuan, Zhaocong; Zhou, Siqi; Panerati, Jacopo; Schoellig, Angela P.",
+  "year": "2021",
+  "title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE01_2021_2108.06266.pdf",
+  "pdf_pages": 36,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2108.06266",
+      "http": 200,
+      "bytes": 6321751
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:23.679493",
+  "arxiv_version": "2108.06266",
+  "journal_reference": "",
+  "abstract": "Abstract: The last half-decade has seen a steep rise in the number of contributions on safe learning methods for real-world robotic deployments from both the control and reinforcement learning communities. This article provides a concise but holistic review of the recent advances made in using machine learning to achieve safe decision making under uncertainties, with a focus on unifying the language and frameworks used in control theory and reinforcement learning research. Our review includes: learning-based control approaches that safely improve performance by learning the uncertain dynamics, reinforcement learning approaches that encourage safety or robustness, and methods that can formally certify the safety of a learned control policy. As data- and learning-based robot control methods continue to gain traction, researchers must understand when and how to best leverage them in real-world scenarios where safety is imperative, such as when operating in close proximity to humans. We highlight some of the open challenges that will drive the field of robot learning in the coming years, and emphasize the need for realistic physics-based benchmarks to facilitate fair comparisons between control and reinforcement learning approaches.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2108.06266",
+  "text_chars_total": 139091,
+  "text_pages": 36,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "28264ab01f26f4320f18aa20d3caa8469722a87c1078225be4babf781f18dfb6",
+  "bytes": 6321751,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W4287025291",
+  "openalex_title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+  "openalex_year": 2021,
+  "openalex_authors": "Lukas Brunke; Melissa Greeff; Adam W. Hall; Zhaocong Yuan; Siqi Zhou; Jacopo Panerati; Angela P. Schoellig"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "CO01",
+  "category": "04_三维高度空中走廊",
+  "arxiv": "1909.02896",
+  "keywords": "RSFC;SFC;Bernstein;QP",
+  "relevance": "构造机间相对安全走廊与三维碰撞约束；区分局部安全管道与城市航路。",
+  "source_page": "https://arxiv.org/abs/1909.02896",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Park, Jungwon; Kim, H. Jin",
+  "year": "2019",
+  "title": "Fast Trajectory Planning for Multiple Quadrotors using Relative Safe Flight Corridor",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "04_三维高度空中走廊/CO01_2019_1909.02896.pdf",
+  "pdf_pages": 8,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "OpenAlex标题/年份/作者与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1909.02896",
+      "http": 200,
+      "bytes": 4320841
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:20.021959",
+  "arxiv_version": "1909.02896",
+  "journal_reference": "",
+  "abstract": "Abstract: This paper presents a new trajectory planning method for multiple quadrotors in obstacle-dense environments. We suggest a relative safe flight corridor (RSFC) to model safe region between a pair of agents, and it is used to generate linear constraints for inter-collision avoidance by utilizing the convex hull property of relative Bernstein polynomial. Our approach employs a graph-based multi-agent pathfinding algorithm to generate an initial trajectory, which is used to construct a safe flight corridor (SFC) and RSFC. We express the trajectory as a piecewise Bernstein polynomial and formulate the trajectory planning problem into one quadratic programming problem using linear constraints from SFC and RSFC. The proposed method can compute collision-free trajectory for 16 agents within a second and for 64 agents less than a minute, and it is validated both through simulation and indoor flight test.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\CO01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1909.02896",
+  "text_chars_total": 32937,
+  "text_pages": 8,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\CO01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "f64ad55391b362caf441a896f8332aff2b663097fb26931d45c980115c68aa06",
+  "bytes": 4320841,
+  "canonical_category": "04_三维高度空中走廊",
+  "openalex_id": "https://openalex.org/W2971985902",
+  "openalex_title": "Fast Trajectory Planning for Multiple Quadrotors using Relative Safe\\n Flight Corridor",
+  "openalex_year": 2019,
+  "openalex_authors": "Jungwon Park; H. Jin Kim"
+}

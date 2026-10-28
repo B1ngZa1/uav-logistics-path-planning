@@ -1,0 +1,48 @@
+{
+  "id": "RE03",
+  "category": "06_综述基准",
+  "arxiv": "2103.02142",
+  "keywords": "gym-pybullet-drones;multi-agent;simulation",
+  "relevance": "多无人机动力学仿真基准参考，关注控制频率与训练配置可复现。",
+  "source_page": "https://arxiv.org/abs/2103.02142",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Panerati, Jacopo; Zheng, Hehui; Zhou, SiQi; Xu, James; Prorok, Amanda; Schoellig, Angela P.",
+  "year": "2021",
+  "title": "Learning to Fly -- a Gym Environment with PyBullet Physics for Reinforcement Learning of Multi-agent Quadcopter Control",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE03_2021_2103.02142.pdf",
+  "pdf_pages": 8,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2103.02142",
+      "http": 200,
+      "bytes": 2106060
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:25.292616",
+  "arxiv_version": "2103.02142",
+  "journal_reference": "",
+  "abstract": "Abstract: Robotic simulators are crucial for academic research and education as well as the development of safety-critical applications. Reinforcement learning environments -- simple simulations coupled with a problem specification in the form of a reward function -- are also important to standardize the development (and benchmarking) of learning algorithms. Yet, full-scale simulators typically lack portability and parallelizability. Vice versa, many reinforcement learning environments trade-off realism for high sample throughputs in toy-like problems. While public data sets have greatly benefited deep learning and computer vision, we still lack the software tools to simultaneously develop -- and fairly compare -- control theory and reinforcement learning approaches. In this paper, we propose an open-source OpenAI Gym-like environment for multiple quadcopters based on the Bullet physics engine. Its multi-agent and vision based reinforcement learning interfaces, as well as the support of realistic collisions and aerodynamic effects, make it, to the best of our knowledge, a first of its kind. We demonstrate its use through several examples, either for control (trajectory tracking with PID control, multi-robot flight with downwash, etc.) or reinforcement learning (single and multi-agent stabilization tasks), hoping to inspire future research that combines control theory and machine learning.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2103.02142",
+  "text_chars_total": 39980,
+  "text_pages": 8,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "52516cf05fd09f6345ac64f15f87ce8ac7fbb3b01f4026eca7aaf82acdabb7c5",
+  "bytes": 2106060,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W3195968524"
+}

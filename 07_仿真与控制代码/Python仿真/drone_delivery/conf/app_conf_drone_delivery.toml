@@ -1,0 +1,16 @@
+# 无人机外卖配送 — 应用级配置
+# Drone Food Delivery — Application-Level Configuration
+
+[app]
+# RL辅助类 / RL helper class
+rl_helper = "common_python.utils.rl_helper.RLHelper"
+
+# 策略构建器 / Policy builder
+policy_builder = "common_python.utils.policy_builder.PolicyBuilder"
+
+# 当前使用的算法（q_learning / sarsa / monte_carlo / dqn / a2c / diy）
+# Current active algorithm
+algorithm_name = "q_learning"
+
+# 默认层级 / Default level (level1 = 2D fixed, level2 = 2D random)
+default_level = "level1"

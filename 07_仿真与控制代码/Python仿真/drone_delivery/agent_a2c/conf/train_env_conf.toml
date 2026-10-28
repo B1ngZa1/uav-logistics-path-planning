@@ -1,0 +1,26 @@
+# =============================================================================
+# train_env_conf.toml -- A2C 训练环境配置 / A2C Training Environment Config
+# =============================================================================
+# 参考 / Reference:
+#   - kaiwu_infinity_valley agent_a2c 的环境配置模式
+#   - Random2DDeliveryEnv 的环境参数接口
+# 领域适配 / Domain Adaptation:
+#   - 无人机配送任务: 2D随机商家配送环境配置
+#   - Drone delivery task: 2D random merchant delivery environment config
+# =============================================================================
+
+[env_conf]
+# 网格尺寸 (40 x 40) / Grid size (40 x 40)
+grid_size = 40
+
+# 最大同时携带订单数 / Maximum orders carried simultaneously
+max_carry = 2
+
+# 每回合最小订单数 / Minimum number of orders per episode
+min_orders = 4
+
+# 每回合最大订单数 / Maximum number of orders per episode
+max_orders = 8
+
+# 单回合最大步数 / Maximum steps per episode
+max_steps = 800

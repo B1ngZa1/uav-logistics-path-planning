@@ -1,0 +1,62 @@
+{
+  "schema": "photo3d_adapter_proposal_v1",
+  "status": "draft_not_consumed_by_existing_code",
+  "ready_for_planner": false,
+  "zone_id": "B",
+  "input_kind": "multiview_photos_or_video_frames",
+  "source_images_sha256_manifest": null,
+  "software_lock_manifest": null,
+  "reconstruction_frame": {
+    "name": "unregistered_sfm",
+    "unit": "unknown",
+    "camera_convention": "COLMAP_world_to_camera_x_right_y_down_z_forward"
+  },
+  "target_frame": {
+    "name": "local_ENU_meters_z_up",
+    "horizontal_implementation": "existing_lonlat_to_local_spherical_approximation",
+    "center_lon_deg": null,
+    "center_lat_deg": null,
+    "earth_radius_m": null,
+    "extent_m": [2400.0, 1800.0],
+    "center_offset_xy_m": [1200.0, 900.0],
+    "vertical_datum": null,
+    "origin_height_m": null
+  },
+  "similarity_reconstruction_to_project": {
+    "scale_m_per_reconstruction_unit": null,
+    "rotation_3x3": null,
+    "translation_m": null,
+    "source_and_target_control_points": null,
+    "independent_checkpoint_errors_m": null
+  },
+  "neural_normalization_inverse": null,
+  "assets": {
+    "visual_mesh": null,
+    "texture_files": [],
+    "gaussian_ply_optional": null,
+    "collision_mesh_optional": null,
+    "collision_json_compatible": null,
+    "observed_free_space_mask": null,
+    "terrain_grid": null
+  },
+  "proposed_collision_policy": {
+    "unknown_space": "occupied",
+    "backend_first_choice": "conservative_prisms_and_capsules",
+    "uav_bounding_radius_m": null,
+    "reconstruction_error_bound_m": null,
+    "registration_error_bound_m": null,
+    "localization_error_bound_m": null,
+    "extra_margin_m": null,
+    "voxel_size_m_optional": null,
+    "segment_swept_volume_required": true,
+    "gaussian_alpha_is_occupancy_probability": false
+  },
+  "acceptance": {
+    "metric_scale_validated": false,
+    "vertical_datum_validated": false,
+    "independent_checkpoints_passed": false,
+    "thin_obstacle_coverage_passed": false,
+    "collision_adapter_tested": false,
+    "independent_agent_review": "NOT_RUN_external_reconstruction_not_claimed"
+  }
+}

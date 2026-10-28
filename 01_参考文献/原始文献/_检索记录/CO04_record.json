@@ -1,0 +1,51 @@
+{
+  "id": "CO04",
+  "category": "04_三维高度空中走廊",
+  "arxiv": "2209.09447",
+  "keywords": "quadrotor swarm;deadlock-free;MAPP",
+  "relevance": "多机狭窄通道死锁与子目标规划；用于层间连接通道调度。",
+  "source_page": "https://arxiv.org/abs/2209.09447",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Park, Jungwon; Jang, Inkyu; Kim, H. Jin",
+  "year": "2022",
+  "title": "Decentralized Deadlock-free Trajectory Planning for Quadrotor Swarm in Obstacle-rich Environments -- Extended version",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "04_三维高度空中走廊/CO04_2022_2209.09447.pdf",
+  "pdf_pages": 11,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2209.09447",
+      "http": 200,
+      "bytes": 3010429
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:21.755036",
+  "arxiv_version": "2209.09447",
+  "journal_reference": "",
+  "abstract": "Abstract: This paper presents a decentralized multi-agent trajectory planning (MATP) algorithm that guarantees to generate a safe, deadlock-free trajectory in an obstacle-rich environment under a limited communication range. The proposed algorithm utilizes a grid-based multi-agent path planning (MAPP) algorithm for deadlock resolution, and we introduce the subgoal optimization method to make the agent converge to the waypoint generated from the MAPP without deadlock. In addition, the proposed algorithm ensures the feasibility of the optimization problem and collision avoidance by adopting a linear safe corridor (LSC). We verify that the proposed algorithm does not cause a deadlock in both random forests and dense mazes regardless of communication range, and it outperforms our previous work in flight time and distance. We validate the proposed algorithm through a hardware demonstration with ten quadrotors.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\CO04_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2209.09447",
+  "text_chars_total": 49305,
+  "text_pages": 11,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\CO04_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "391d60c3271b16c38e18bae2101ed1546a7be59d7b1f1346f6fd4695810a9caa",
+  "bytes": 3010429,
+  "canonical_category": "04_三维高度空中走廊",
+  "openalex_id": "https://openalex.org/W4296605336",
+  "openalex_title": "Decentralized Deadlock-free Trajectory Planning for Quadrotor Swarm in Obstacle-rich Environments -- Extended version",
+  "openalex_year": 2022,
+  "openalex_authors": "Jung‐Won Park; Inkyu Jang; H. Jin Kim"
+}

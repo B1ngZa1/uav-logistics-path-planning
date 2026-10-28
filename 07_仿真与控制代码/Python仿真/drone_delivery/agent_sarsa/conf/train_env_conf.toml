@@ -1,0 +1,66 @@
+[env_conf]
+# Grid size for the 2D delivery map.
+# Integer, range: 1~100.
+# 2D配送地图的网格大小。
+# 整型，取值范围：1~100。
+grid_size = 40
+
+# Number of delivery orders in the environment.
+# Integer, range: 1~10.
+# 环境中的配送订单数量。
+# 整型，取值范围：1~10。
+num_orders = 5
+
+# Maximum steps per episode before truncation.
+# Integer, range: 1~2000.
+# 每个回合的最大步数（截断）。
+# 整型，取值范围：1~2000。
+max_steps = 500
+
+# Depot (delivery center) coordinates.
+# Array containing two integer elements [x, y], each coordinate ranges from 0 to grid_size-1.
+# The drone starts and ends at the depot. All orders must be completed
+# before returning to the depot for full bonus.
+# 配送中心坐标。
+# 数组，包含两个整数元素[x, y]，每个坐标取值范围为0到grid_size-1。
+# 无人机从配送中心出发并最终返回。必须完成所有订单后返回配送中心才能获得完整奖励。
+depot = [30, 10]
+
+# Merchant locations (pickup points for each order).
+# Array of [x, y] pairs, one per order. Each coordinate ranges from 0 to grid_size-1.
+# 商家位置（每个订单的取货点）。
+# [x, y]坐标对数组，每个订单一个。每个坐标取值范围为0到grid_size-1。
+merchants = [
+    [16, 17],
+    [22, 15],
+    [14, 12],
+    [25, 18],
+    [18, 24],
+]
+
+# Delivery point locations (drop-off points for each order).
+# Array of [x, y] pairs, one per order. Each coordinate ranges from 0 to grid_size-1.
+# 配送点位置（每个订单的送货点）。
+# [x, y]坐标对数组，每个订单一个。每个坐标取值范围为0到grid_size-1。
+delivery_points = [
+    [20, 25],
+    [28, 22],
+    [10, 20],
+    [32, 12],
+    [16, 17],
+]
+
+# Whether to randomize order assignment each episode.
+# Boolean, false = use fixed merchants/delivery_points as configured above.
+# If true, merchants and delivery_points are randomly generated.
+# 是否每回合随机化订单分配。
+# 布尔值，false = 使用上面配置的固定商家/配送点。
+# 若开启，则随机生成商家和配送点。
+random_orders = false
+
+# Path to the grid map data file (for obstacle layout).
+# The map file defines building obstacles, no-fly zones, and boundary constraints
+# based on the Wuhan College Zone B campus layout.
+# 网格地图数据文件路径（用于障碍物布局）。
+# 地图文件定义了基于武汉学院Zone B校区布局的建筑障碍物、禁飞区和边界约束。
+map_data_path = "conf/map_data/zone_b_grid.json"

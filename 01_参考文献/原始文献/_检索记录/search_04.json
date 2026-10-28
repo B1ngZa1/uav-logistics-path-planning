@@ -1,0 +1,91 @@
+{
+  "query": "QMIX centralized training decentralized execution",
+  "timestamp": "2026-09-17T16:56:19.607615",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "QMIX centralized training decentralized execution",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Is Centralized Training with Decentralized Execution Framework Centralized Enough for MARL?",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/2305.17352"
+      },
+      {
+        "title": "A New Framework for Multi-Agent Reinforcement Learning -- Centralized\\n Training and Exploration with Decentralized Execution via Policy Distillation",
+        "authors": [],
+        "year": 1910,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/1910.09152"
+      },
+      {
+        "title": "An Introduction to Centralized Training for Decentralized Execution in Cooperative Multi-Agent Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/2409.03052"
+      },
+      {
+        "title": "Contrasting Centralized and Decentralized Critics in Multi-Agent\\n Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "http://arxiv.org/abs/2102.04402"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 9,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 4,
+      "filtered_irrelevant": 5,
+      "collapsed_duplicates": 0
+    }
+  }
+}

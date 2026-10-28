@@ -1,0 +1,142 @@
+{
+  "query": "UAV reinforcement learning survey benchmark",
+  "timestamp": "2026-09-17T16:56:54.814110",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "UAV reinforcement learning survey benchmark",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Multi-Agent Deep Reinforcement Learning-Based Trajectory Planning for Multi-UAV Assisted Mobile Edge Computing",
+        "authors": [],
+        "year": 2020,
+        "citations": 0,
+        "doi": "10.1109/tccn.2020.3027695",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tccn.2020.3027695"
+      },
+      {
+        "title": "A Survey on Machine-Learning Techniques for UAV-Based Communications",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/s19235170",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/s19235170"
+      },
+      {
+        "title": "A Survey of Deep Learning-Based Object Detection",
+        "authors": [],
+        "year": 2019,
+        "citations": 0,
+        "doi": "10.1109/access.2019.2939201",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/access.2019.2939201"
+      },
+      {
+        "title": "A Survey of Object Detection for UAVs Based on Deep Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/rs16010149",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/rs16010149"
+      },
+      {
+        "title": "Drone Deep Reinforcement Learning: A Review",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/electronics10090999",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/electronics10090999"
+      },
+      {
+        "title": "Multi-Agent Reinforcement Learning: A Review of Challenges and Applications",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/app11114948",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/app11114948"
+      },
+      {
+        "title": "Federated Learning: A Survey on Enabling Technologies, Protocols, and Applications",
+        "authors": [],
+        "year": 2020,
+        "citations": 0,
+        "doi": "10.1109/access.2020.3013541",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/access.2020.3013541"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 7,
+      "filtered_irrelevant": 3,
+      "collapsed_duplicates": 0
+    }
+  }
+}

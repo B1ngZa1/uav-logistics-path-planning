@@ -1,0 +1,51 @@
+{
+  "id": "MA03",
+  "category": "02_MARL协同",
+  "arxiv": "1910.01465",
+  "keywords": "MATD3;double centralized critics;连续动作",
+  "relevance": "多智能体双critic方法来源；用于连续三维动作协同基线。",
+  "source_page": "https://arxiv.org/abs/1910.01465",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Ackermann, Johannes; Gabler, Volker; Osa, Takayuki; Sugiyama, Masashi",
+  "year": "2019",
+  "title": "Reducing Overestimation Bias in Multi-Agent Domains Using Double Centralized Critics",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "02_MARL协同/MA03_2019_1910.01465.pdf",
+  "pdf_pages": 10,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1910.01465",
+      "http": 200,
+      "bytes": 1358917
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:09.533079",
+  "arxiv_version": "1910.01465",
+  "journal_reference": "",
+  "abstract": "Abstract: Many real world tasks require multiple agents to work together. Multi-agent reinforcement learning (RL) methods have been proposed in recent years to solve these tasks, but current methods often fail to efficiently learn policies. We thus investigate the presence of a common weakness in single-agent RL, namely value function overestimation bias, in the multi-agent setting. Based on our findings, we propose an approach that reduces this bias by using double centralized critics. We evaluate it on six mixed cooperative-competitive tasks, showing a significant advantage over current methods. Finally, we investigate the application of multi-agent methods to high-dimensional robotic tasks and show that our approach can be used to learn decentralized policies in this domain.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\MA03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1910.01465",
+  "text_chars_total": 31999,
+  "text_pages": 10,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\MA03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "aad7832c36600dd80ca04692e61db911f179fb5b307ae4566d493d5ac9a581e4",
+  "bytes": 1358917,
+  "canonical_category": "02_MARL协同",
+  "openalex_id": "https://openalex.org/W2978148161",
+  "openalex_title": "Reducing Overestimation Bias in Multi-Agent Domains Using Double Centralized Critics",
+  "openalex_year": 2019,
+  "openalex_authors": "Johannes Ackermann; Volker Gabler; Takayuki Osa; Masashi Sugiyama"
+}

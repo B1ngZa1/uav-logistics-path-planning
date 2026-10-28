@@ -1,0 +1,51 @@
+{
+  "id": "PA03",
+  "category": "03_多算法路径规划",
+  "arxiv": "2404.01752",
+  "keywords": "SI-RRT*;CBS;优先级规划",
+  "relevance": "采样规划和多机器人冲突消解组合，用作时间窗航道基线。",
+  "source_page": "https://arxiv.org/abs/2404.01752",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Sim, Joonyeol; Kim, Joonkyung; Nam, Changjoo",
+  "year": "2024",
+  "title": "Safe Interval RRT* for Scalable Multi-Robot Path Planning in Continuous Space",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "03_多算法路径规划/PA03_2024_2404.01752.pdf",
+  "pdf_pages": 12,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2404.01752",
+      "http": 200,
+      "bytes": 1958564
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:13.331626",
+  "arxiv_version": "2404.01752",
+  "journal_reference": "",
+  "abstract": "Abstract: In this paper, we consider the problem of Multi-Robot Path Planning (MRPP) in continuous space. The difficulty of the problem arises from the extremely large search space caused by the combinatorial nature of the problem and the continuous state space. We propose a two-level approach where the low level is a sampling-based planner Safe Interval RRT* (SI-RRT*) that finds a collision-free trajectory for individual robots. The high level can use any method that can resolve inter-robot conflicts where we employ two representative methods that are Prioritized Planning (SI-CPP) and Conflict Based Search (SI-CCBS). Experimental results show that SI-RRT* can quickly find a high-quality solution with a few samples. SI-CPP exhibits improved scalability while SI-CCBS produces higher-quality solutions compared to the state-of-the-art planners for continuous space.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\PA03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2404.01752",
+  "text_chars_total": 50104,
+  "text_pages": 12,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\PA03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "8f369631c4b29cc67a3167d3ce6028b175f4c7a0f3107bc2db946faae7fc4fc3",
+  "bytes": 1958564,
+  "canonical_category": "03_多算法路径规划",
+  "openalex_id": "https://openalex.org/W4393929849",
+  "openalex_title": "Safe Interval RRT* for Scalable Multi-Robot Path Planning in Continuous Space",
+  "openalex_year": 2024,
+  "openalex_authors": "Joonyeol Sim; Joonkyung Kim; Changjoo Nam"
+}

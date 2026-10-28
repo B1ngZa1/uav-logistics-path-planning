@@ -1,0 +1,26 @@
+graph TB
+    subgraph 输入层
+        A[配送任务] --> B[任务分配器]
+        C[空域信息] --> D[环境状态]
+    end
+
+    subgraph 决策层
+        B --> E[PPO策略网络]
+        D --> E
+        E --> F[动作输出]
+    end
+
+    subgraph 执行层
+        F --> G[无人机1]
+        F --> H[无人机2]
+        F --> I[无人机N]
+    end
+
+    subgraph 环境层
+        G --> J[三维空域环境]
+        H --> J
+        I --> J
+        J --> K[奖励计算]
+        K --> L[经验回放]
+        L --> E
+    end

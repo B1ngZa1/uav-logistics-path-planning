@@ -1,0 +1,51 @@
+{
+  "id": "MA01",
+  "category": "02_MARL协同",
+  "arxiv": "2103.01955",
+  "keywords": "MAPPO;CTDE;PPO",
+  "relevance": "多无人机协同训练主要算法基线；原文通用协作游戏不能视为物流实验。",
+  "source_page": "https://arxiv.org/abs/2103.01955",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Yu, Chao; Velu, Akash; Vinitsky, Eugene; Gao, Jiaxuan; Wang, Yu; Bayen, Alexandre; Wu, Yi",
+  "year": "2021",
+  "title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "02_MARL协同/MA01_2021_2103.01955.pdf",
+  "pdf_pages": 30,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2103.01955",
+      "http": 200,
+      "bytes": 16261854
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:07.999475",
+  "arxiv_version": "2103.01955",
+  "journal_reference": "",
+  "abstract": "Abstract: Proximal Policy Optimization (PPO) is a ubiquitous on-policy reinforcement learning algorithm but is significantly less utilized than off-policy learning algorithms in multi-agent settings. This is often due to the belief that PPO is significantly less sample efficient than off-policy methods in multi-agent systems. In this work, we carefully study the performance of PPO in cooperative multi-agent settings. We show that PPO-based multi-agent algorithms achieve surprisingly strong performance in four popular multi-agent testbeds: the particle-world environments, the StarCraft multi-agent challenge, Google Research Football, and the Hanabi challenge, with minimal hyperparameter tuning and without any domain-specific algorithmic modifications or architectures. Importantly, compared to competitive off-policy methods, PPO often achieves competitive or superior results in both final returns and sample efficiency. Finally, through ablation studies, we analyze implementation and hyperparameter factors that are critical to PPO's empirical performance, and give concrete practical suggestions regarding these factors. Our results show that when using these practices, simple PPO-based methods can be a strong baseline in cooperative multi-agent reinforcement learning. Source code is released at \\url{ this https URL }.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\MA01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2103.01955",
+  "text_chars_total": 79588,
+  "text_pages": 30,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\MA01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "b7577e38c48e898cc93a1438c266e546091d20a75dbad8d956000a1b42ab0b97",
+  "bytes": 16261854,
+  "canonical_category": "02_MARL协同",
+  "openalex_id": "https://openalex.org/W4286748781",
+  "openalex_title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+  "openalex_year": 2021,
+  "openalex_authors": "Chao Yu; Akash Velu; Eugene Vinitsky; Gao, Jiaxuan; Yu Wang; Alexandre M. Bayen; Yi Wu"
+}

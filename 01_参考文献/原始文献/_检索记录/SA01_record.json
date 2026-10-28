@@ -1,0 +1,51 @@
+{
+  "id": "SA01",
+  "category": "05_能耗安全约束",
+  "arxiv": "1705.10528",
+  "keywords": "CPO;CMDP;安全强化学习",
+  "relevance": "建立约束MDP与期望代价约束；期望约束不能替代逐时刻无碰撞保证。",
+  "source_page": "https://arxiv.org/abs/1705.10528",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Achiam, Joshua; Held, David; Tamar, Aviv; Abbeel, Pieter",
+  "year": "2017",
+  "title": "Constrained Policy Optimization",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "05_能耗安全约束/SA01_2017_1705.10528.pdf",
+  "pdf_pages": 18,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1705.10528",
+      "http": 200,
+      "bytes": 1013867
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:21.934718",
+  "arxiv_version": "1705.10528",
+  "journal_reference": "",
+  "abstract": "Abstract: For many applications of reinforcement learning it can be more convenient to specify both a reward function and constraints, rather than trying to design behavior through the reward function. For example, systems that physically interact with or around humans should satisfy safety constraints. Recent advances in policy search algorithms (Mnih et al., 2016, Schulman et al., 2015, Lillicrap et al., 2016, Levine et al., 2016) have enabled new capabilities in high-dimensional control, but do not consider the constrained setting. We propose Constrained Policy Optimization (CPO), the first general-purpose policy search algorithm for constrained reinforcement learning with guarantees for near-constraint satisfaction at each iteration. Our method allows us to train neural network policies for high-dimensional control while making guarantees about policy behavior all throughout training. Our guarantees are based on a new theoretical result, which is of independent interest: we prove a bound relating the expected returns of two policies to an average divergence between them. We demonstrate the effectiveness of our approach on simulated robot locomotion tasks where the agent must satisfy constraints motivated by safety.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\SA01_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1705.10528",
+  "text_chars_total": 56498,
+  "text_pages": 18,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\SA01_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "3f93760d9b472af5b17f2f4b887950beaaad7fc501962390986857f242549a59",
+  "bytes": 1013867,
+  "canonical_category": "05_能耗安全约束",
+  "openalex_id": "https://openalex.org/W2616964725",
+  "openalex_title": "Constrained Policy Optimization",
+  "openalex_year": 2017,
+  "openalex_authors": "Joshua Achiam; David Held; Aviv Tamar; Pieter Abbeel"
+}

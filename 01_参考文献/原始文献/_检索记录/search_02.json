@@ -1,0 +1,176 @@
+{
+  "query": "multi agent MAPPO cooperative UAV",
+  "timestamp": "2026-09-17T16:56:13.068587",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "multi agent MAPPO cooperative UAV",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Multi-UAV Cooperative Searching and Tracking for Moving Targets Based on Multi-Agent Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/app132111905",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/app132111905"
+      },
+      {
+        "title": "A cooperative dynamic target search approach for multi-UAV systems utilizing the MAPPO algorithm",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.1007/s44163-025-00411-9",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1007/s44163-025-00411-9"
+      },
+      {
+        "title": "A Survey on UAV Control with Multi-Agent Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones9070484",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones9070484"
+      },
+      {
+        "title": "Cooperative multi-target hunting by unmanned surface vehicles based on multi-agent reinforcement learning",
+        "authors": [],
+        "year": 2022,
+        "citations": 0,
+        "doi": "10.1016/j.dt.2022.09.014",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.dt.2022.09.014"
+      },
+      {
+        "title": "UAV Swarm Cooperative Dynamic Target Search: A MAPPO-Based Discrete Optimal Control Method",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones8060214",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones8060214"
+      },
+      {
+        "title": "Reinforcement-Learning-Based Multi-UAV Cooperative Search for Moving Targets in 3D Scenarios",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones8080378",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones8080378"
+      },
+      {
+        "title": "A Multi-UCAV Cooperative Decision-Making Method Based on an MAPPO Algorithm for Beyond-Visual-Range Air Combat",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/aerospace9100563",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/aerospace9100563"
+      },
+      {
+        "title": "Energy Efficient Computation Offloading in Aerial Edge Networks With Multi-Agent Cooperation",
+        "authors": [],
+        "year": 2023,
+        "citations": 0,
+        "doi": "10.1109/twc.2023.3235997",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/twc.2023.3235997"
+      },
+      {
+        "title": "Multi-Agent Deep Reinforcement Learning for Multi-Robot Applications: A Survey",
+        "authors": [],
+        "year": 2004,
+        "citations": 0,
+        "doi": "10.3390/s23073625",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/s23073625"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 9,
+      "filtered_irrelevant": 1,
+      "collapsed_duplicates": 0
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[env_conf]
+# =============================================================================
+# 无人机配送 — 环境配置 (DIY占位符)
+# Drone Delivery — Environment Configuration (DIY Placeholder)
+#
+# 学生在此设置环境参数, 如配送中心坐标、最大步数、网格尺寸等。
+# Students set environment parameters here: depot, max_steps, grid_size, etc.
+#
+# 参考 / Reference:
+#     agent_q_learning/conf/train_env_conf.toml (完整示例参考 / full example)
+#     agent_dqn/conf/train_env_conf.toml (DQN环境配置参考)
+# =============================================================================
+
+# TODO: 学生在此设置环境参数 / Students set environment parameters here
+
+# 配送中心坐标 [x, y] — 无人机起始和返回位置
+# Depot coordinates [x, y] — drone start and return position
+depot = [30, 10]
+
+# 商家坐标列表 (取货点) — 与 delivery_points 按索引一一对应
+# Merchant coordinate list (pickup points) — 1-to-1 with delivery_points by index
+merchants = [
+    [16, 17],
+    [22, 15],
+    [14, 12],
+    [25, 18],
+    [18, 24],
+]
+
+# 配送点坐标列表 (送货点) — 与 merchants 按索引一一对应
+# Delivery point coordinate list (drop-off points) — 1-to-1 with merchants by index
+delivery_points = [
+    [20, 25],
+    [28, 22],
+    [10, 20],
+    [32, 12],
+    [16, 17],
+]
+
+# 订单数量 (占位符, 整型 1~10)
+# Number of delivery orders (placeholder, integer 1~10)
+delivery_count = 5
+
+# 最大步数 (占位符, 整型 1~2000)
+# Maximum steps per episode (placeholder, integer 1~2000)
+max_steps = 500
+
+# 网格尺寸 (占位符, 整型)
+# Grid size — grid_size × grid_size (placeholder, integer)
+grid_size = 40

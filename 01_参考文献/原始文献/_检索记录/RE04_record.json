@@ -1,0 +1,51 @@
+{
+  "id": "RE04",
+  "category": "06_综述基准",
+  "arxiv": "1911.10635",
+  "keywords": "MARL;理论;CTDE;综述",
+  "relevance": "多智能体强化学习理论和分类基础；为算法选择提供术语对照。",
+  "source_page": "https://arxiv.org/abs/1911.10635",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Zhang, Kaiqing; Yang, Zhuoran; Başar, Tamer",
+  "year": "2019",
+  "title": "Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE04_2019_1911.10635.pdf",
+  "pdf_pages": 73,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1911.10635",
+      "http": 200,
+      "bytes": 2225271
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:26.382878",
+  "arxiv_version": "1911.10635",
+  "journal_reference": "",
+  "abstract": "Abstract: Recent years have witnessed significant advances in reinforcement learning (RL), which has registered great success in solving various sequential decision-making problems in machine learning. Most of the successful RL applications, e.g., the games of Go and Poker, robotics, and autonomous driving, involve the participation of more than one single agent, which naturally fall into the realm of multi-agent RL (MARL), a domain with a relatively long history, and has recently re-emerged due to advances in single-agent RL techniques. Though empirically successful, theoretical foundations for MARL are relatively lacking in the literature. In this chapter, we provide a selective overview of MARL, with focus on algorithms backed by theoretical analysis. More specifically, we review the theoretical results of MARL algorithms mainly within two representative frameworks, Markov/stochastic games and extensive-form games, in accordance with the types of tasks they address, i.e., fully cooperative, fully competitive, and a mix of the two. We also introduce several significant but challenging applications of these algorithms. Orthogonal to the existing reviews on MARL, we highlight several new angles and taxonomies of MARL theory, including learning in extensive-form games, decentralized MARL with networked agents, MARL in the mean-field regime, (non-)convergence of policy-based methods for learning in games, etc. Some of the new angles extrapolate from our own research endeavors and interests. Our overall goal with this chapter is, beyond providing an assessment of the current state of the field on the mark, to identify fruitful future research directions on theoretical studies of MARL. We expect this chapter to serve as continuing stimulus for researchers interested in working on this exciting while challenging topic.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE04_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1911.10635",
+  "text_chars_total": 207160,
+  "text_pages": 73,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE04_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "a48d8ba37a8c4042d19a877dac3284e52d911f788910bb950c14824fc6c5c4d7",
+  "bytes": 2225271,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W4297627396",
+  "openalex_title": "Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms",
+  "openalex_year": 2019,
+  "openalex_authors": "Kaiqing Zhang; Zhuoran Yang; Tamer Başar"
+}

@@ -1,0 +1,74 @@
+{
+  "query": "quadrotor three dimensional safe flight corridor",
+  "timestamp": "2026-09-17T16:56:29.205455",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "quadrotor three dimensional safe flight corridor",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Planning Dynamically Feasible Trajectories for Quadrotors Using Safe Flight Corridors in 3-D Complex Environments",
+        "authors": [],
+        "year": 2017,
+        "citations": 0,
+        "doi": "10.1109/lra.2017.2663526",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/lra.2017.2663526"
+      },
+      {
+        "title": "Quadrotor Using Minimal Sensing For Autonomous Indoor Flight",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": null,
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://infoscience.epfl.ch/handle/20.500.14299/11830"
+      },
+      {
+        "title": "Robust and Efficient Trajectory Replanning Based on Guiding Path for Quadrotor Fast Autonomous Flight",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/rs13050972",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/rs13050972"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 3,
+      "filtered_irrelevant": 7,
+      "collapsed_duplicates": 0
+    }
+  }
+}

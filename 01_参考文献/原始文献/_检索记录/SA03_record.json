@@ -1,0 +1,51 @@
+{
+  "id": "SA03",
+  "category": "05_能耗安全约束",
+  "arxiv": "1804.02238",
+  "keywords": "rotary-wing;推进能耗;SCA",
+  "relevance": "旋翼机推进功率建模基础；三维爬升、载荷和风场需校准扩展。",
+  "source_page": "https://arxiv.org/abs/1804.02238",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Zeng, Yong; Xu, Jie; Zhang, Rui",
+  "year": "2018",
+  "title": "Energy Minimization for Wireless Communication with Rotary-Wing UAV",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "05_能耗安全约束/SA03_2018_1804.02238.pdf",
+  "pdf_pages": 31,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1804.02238",
+      "http": 200,
+      "bytes": 4485945
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:23.020548",
+  "arxiv_version": "1804.02238",
+  "journal_reference": "",
+  "abstract": "Abstract: This paper studies unmanned aerial vehicle (UAV) enabled wireless communication, where a rotarywing UAV is dispatched to send/collect data to/from multiple ground nodes (GNs). We aim to minimize the total UAV energy consumption, including both propulsion energy and communication related energy, while satisfying the communication throughput requirement of each GN. To this end, we first derive an analytical propulsion power consumption model for rotary-wing UAVs, and then formulate the energy minimization problem by jointly optimizing the UAV trajectory and communication time allocation among GNs, as well as the total mission completion time. The problem is difficult to be optimally solved, as it is non-convex and involves infinitely many variables over time. To tackle this problem, we first consider the simple fly-hover-communicate design, where the UAV successively visits a set of hovering locations and communicates with one corresponding GN when hovering at each location. For this design, we propose an efficient algorithm to optimize the hovering locations and durations, as well as the flying trajectory connecting these hovering locations, by leveraging the travelling salesman problem (TSP) and convex optimization techniques. Next, we consider the general case where the UAV communicates also when flying. We propose a new path discretization method to transform the original problem into a discretized equivalent with a finite number of optimization variables, for which we obtain a locally optimal solution by applying the successive convex approximation (SCA) technique. Numerical results show the significant performance gains of the proposed designs over benchmark schemes, in achieving energy-efficient communication with rotary-wing UAVs.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\SA03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1804.02238",
+  "text_chars_total": 67984,
+  "text_pages": 31,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\SA03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "f071ace91b9c0337441bdfad86425a2e9400d07c76abc471543e655980e06160",
+  "bytes": 4485945,
+  "canonical_category": "05_能耗安全约束",
+  "openalex_id": "https://openalex.org/W2796305130",
+  "openalex_title": "Energy Minimization for Wireless Communication with Rotary-Wing UAV",
+  "openalex_year": 2018,
+  "openalex_authors": "Yong Zeng; Jie Xu; Rui Zhang"
+}

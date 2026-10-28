@@ -1,0 +1,56 @@
+[env_conf]
+# =============================================================================
+# 无人机配送 — 环境配置
+# Drone Delivery — Environment Configuration
+#
+# 参考 / Reference:
+#     kaiwu_gorge_walk_v2/agent_q_learning/conf/train_env_conf.toml
+# =============================================================================
+
+# 配送中心坐标 [x, y]
+# Depot coordinates [x, y]
+# 无人机起始位置和全部完成后返回的位置。
+# The drone's starting position and return position after all deliveries.
+depot = [30, 10]
+
+# 商家坐标列表 (取货点)
+# Merchant coordinate list (pickup points)
+# 每个子数组为 [x, y]，长度与 delivery_points 相同。
+# Each sub-array is [x, y]; length matches delivery_points.
+merchants = [
+    [16, 17],
+    [22, 15],
+    [14, 12],
+    [25, 18],
+    [18, 24],
+]
+
+# 配送点坐标列表 (送货点)
+# Delivery point coordinate list (drop-off points)
+# 每个子数组为 [x, y]，与 merchants 按索引一一对应。
+# Each sub-array is [x, y]; one-to-one correspondence with merchants by index.
+delivery_points = [
+    [20, 25],
+    [28, 22],
+    [10, 20],
+    [32, 12],
+    [16, 17],
+]
+
+# 订单数量
+# Number of delivery orders
+# 整型，取值范围 1~10。
+# Integer, range: 1~10.
+delivery_count = 5
+
+# 最大步数
+# Maximum steps per episode
+# 整型，取值范围 1~2000。
+# Integer, range: 1~2000.
+max_steps = 500
+
+# 网格尺寸
+# Grid size (grid_size × grid_size)
+# 整型，固定值。
+# Integer, fixed value.
+grid_size = 40

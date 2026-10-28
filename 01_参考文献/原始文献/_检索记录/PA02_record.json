@@ -1,0 +1,51 @@
+{
+  "id": "PA02",
+  "category": "03_多算法路径规划",
+  "arxiv": "2008.08835",
+  "keywords": "EGO-Planner;梯度优化;B-spline",
+  "relevance": "为高层RL输出航点配套局部平滑规划与动力学检查。",
+  "source_page": "https://arxiv.org/abs/2008.08835",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Zhou, Xin; Wang, Zhepei; Ye, Hongkai; Xu, Chao; Gao, Fei",
+  "year": "2020",
+  "title": "EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "03_多算法路径规划/PA02_2020_2008.08835.pdf",
+  "pdf_pages": 8,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2008.08835",
+      "http": 200,
+      "bytes": 2855970
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:12.903031",
+  "arxiv_version": "2008.08835",
+  "journal_reference": "",
+  "abstract": "Abstract: Gradient-based planners are widely used for quadrotor local planning, in which a Euclidean Signed Distance Field (ESDF) is crucial for evaluating gradient magnitude and direction. Nevertheless, computing such a field has much redundancy since the trajectory optimization procedure only covers a very limited subspace of the ESDF updating range. In this paper, an ESDF-free gradient-based planning framework is proposed, which significantly reduces computation time. The main improvement is that the collision term in the penalty function is formulated by comparing the colliding trajectory with a collision-free guiding path. The resulting obstacle information will be stored only if the trajectory hits new obstacles, making the planner only extract necessary obstacle information. Then, we lengthen the time allocation if dynamical feasibility is violated. An anisotropic curve fitting algorithm is introduced to adjust higher-order derivatives of the trajectory while maintaining the original shape. Benchmark comparisons and real-world experiments verify its robustness and high-performance. The source code is released as ROS packages.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\PA02_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2008.08835",
+  "text_chars_total": 37894,
+  "text_pages": 8,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\PA02_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "a3960f4bd97e2737dccb288aee724b9f6e1cdf00dcc552afc51d53deceef5813",
+  "bytes": 2855970,
+  "canonical_category": "03_多算法路径规划",
+  "openalex_id": "https://openalex.org/W3057565981",
+  "openalex_title": "EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors",
+  "openalex_year": 2020,
+  "openalex_authors": "Xin Zhou; Zhepei Wang; Hongkai Ye; Chao Xu; Fei Gao"
+}

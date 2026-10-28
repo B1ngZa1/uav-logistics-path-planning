@@ -1,0 +1,51 @@
+{
+  "id": "CO03",
+  "category": "04_三维高度空中走廊",
+  "arxiv": "2301.09758",
+  "keywords": "UAM;DDPG;airspace capacity",
+  "relevance": "城市低空容量和禁入区域约束参考；不能直接提供中国法定高度。",
+  "source_page": "https://arxiv.org/abs/2301.09758",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Mehditabrizi, Asal; Samadzad, Mahdi; Sabzekar, Sina",
+  "year": "2023",
+  "title": "A deep reinforcement learning approach to assess the low-altitude airspace capacity for urban air mobility",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "04_三维高度空中走廊/CO03_2023_2301.09758.pdf",
+  "pdf_pages": 15,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2301.09758",
+      "http": 200,
+      "bytes": 921572
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:20.961056",
+  "arxiv_version": "2301.09758",
+  "journal_reference": "",
+  "abstract": "Abstract: Urban air mobility is the new mode of transportation aiming to provide a fast and secure way of travel by utilizing the low-altitude airspace. This goal cannot be achieved without the implementation of new flight regulations which can assure safe and efficient allocation of flight paths to a large number of vertical takeoff/landing aerial vehicles. Such rules should also allow estimating the effective capacity of the low-altitude airspace for planning purposes. Path planning is a vital subject in urban air mobility which could enable a large number of UAVs to fly simultaneously in the airspace without facing the risk of collision. Since urban air mobility is a novel concept, authorities are still working on the redaction of new flight rules applicable to urban air mobility. In this study, an autonomous UAV path planning framework is proposed using a deep reinforcement learning approach and a deep deterministic policy gradient algorithm. The objective is to employ a self-trained UAV to reach its destination in the shortest possible time in any arbitrary environment by adjusting its acceleration. It should avoid collisions with any dynamic or static obstacles and avoid entering prior permission zones existing on its path. The reward function is the determinant factor in the training process. Thus, two different reward function compositions are compared and the chosen composition is deployed to train the UAV by coding the RL algorithm in python. Finally, numerical simulations investigated the success rate of UAVs in different scenarios providing an estimate of the effective airspace capacity.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\CO03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2301.09758",
+  "text_chars_total": 25165,
+  "text_pages": 15,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\CO03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "01f266ff8c01a6eb4d92040cf731918a58bac61686e8bfdfc56a7023f0819087",
+  "bytes": 921572,
+  "canonical_category": "04_三维高度空中走廊",
+  "openalex_id": "https://openalex.org/W4318142129",
+  "openalex_title": "A deep reinforcement learning approach to assess the low-altitude airspace capacity for urban air mobility",
+  "openalex_year": 2023,
+  "openalex_authors": "Asal Mehditabrizi; Mahdi Samadzad; Sina Sabzekar"
+}

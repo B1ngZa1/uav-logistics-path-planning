@@ -1,0 +1,125 @@
+{
+  "query": "UAV energy aware trajectory optimization",
+  "timestamp": "2026-09-17T16:56:40.461064",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "UAV energy aware trajectory optimization",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "UAV Trajectory Optimization in a Post-Disaster Area Using Dual Energy-Aware Bandits",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/s23031402",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/s23031402"
+      },
+      {
+        "title": "Energy-Aware Trajectory Optimization for UAV-Mounted RIS and Full-Duplex Relay",
+        "authors": [],
+        "year": 2024,
+        "citations": 0,
+        "doi": "10.1109/jiot.2024.3390767",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/jiot.2024.3390767"
+      },
+      {
+        "title": "Aiding a Disaster Spot via Multi-UAV-Based IoT Networks: Energy and Mission Completion Time-Aware Trajectory Optimization",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/jiot.2021.3109138",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/jiot.2021.3109138"
+      },
+      {
+        "title": "UAV Trajectory Optimization for Time-Constrained Data Collection in UAV-Enabled Environmental Monitoring Systems",
+        "authors": [],
+        "year": 2022,
+        "citations": 0,
+        "doi": "10.1109/jiot.2022.3189214",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/jiot.2022.3189214"
+      },
+      {
+        "title": "AoI-Energy-Aware UAV-Assisted Data Collection for IoT Networks: A Deep Reinforcement Learning Method",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/jiot.2021.3078701",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/jiot.2021.3078701"
+      },
+      {
+        "title": "Mobile Edge Computing via a UAV-Mounted Cloudlet: Optimization of Bit Allocation and Path Planning",
+        "authors": [],
+        "year": 2017,
+        "citations": 0,
+        "doi": "10.1109/tvt.2017.2706308",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tvt.2017.2706308"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 6,
+      "filtered_irrelevant": 4,
+      "collapsed_duplicates": 0
+    }
+  }
+}

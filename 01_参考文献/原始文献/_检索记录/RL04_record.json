@@ -1,0 +1,51 @@
+{
+  "id": "RL04",
+  "category": "01_RL",
+  "arxiv": "2311.13081",
+  "keywords": "quadrotor;RL;sim-to-real",
+  "relevance": "低层飞控与轨迹跟踪参考；与高层物流路径规划分层。",
+  "source_page": "https://arxiv.org/abs/2311.13081",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Eschmann, Jonas; Albani, Dario; Loianno, Giuseppe",
+  "year": "2023",
+  "title": "Learning to Fly in Seconds",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "01_RL/RL04_2023_2311.13081.pdf",
+  "pdf_pages": 8,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2311.13081",
+      "http": 200,
+      "bytes": 4798045
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:07.981489",
+  "arxiv_version": "2311.13081",
+  "journal_reference": "",
+  "abstract": "Abstract: Learning-based methods, particularly Reinforcement Learning (RL), hold great promise for streamlining deployment, enhancing performance, and achieving generalization in the control of autonomous multirotor aerial vehicles. Deep RL has been able to control complex systems with impressive fidelity and agility in simulation but the simulation-to-reality transfer often brings a hard-to-bridge reality gap. Moreover, RL is commonly plagued by prohibitively long training times. In this work, we propose a novel asymmetric actor-critic-based architecture coupled with a highly reliable RL-based training paradigm for end-to-end quadrotor control. We show how curriculum learning and a highly optimized simulator enhance sample complexity and lead to fast training times. To precisely discuss the challenges related to low-level/end-to-end multirotor control, we also introduce a taxonomy that classifies the existing levels of control abstractions as well as non-linearities and domain parameters. Our framework enables Simulation-to-Reality (Sim2Real) transfer for direct RPM control after only 18 seconds of training on a consumer-grade laptop as well as its deployment on microcontrollers to control a multirotor under real-time guarantees. Finally, our solution exhibits competitive performance in trajectory tracking, as demonstrated through various experimental comparisons with existing state-of-the-art control solutions using a real Crazyflie nano quadrotor. We open source the code including a very fast multirotor dynamics simulator that can simulate about 5 months of flight per second on a laptop GPU. The fast training times and deployment to a cheap, off-the-shelf quadrotor lower the barriers to entry and help democratize the research and development of these systems.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RL04_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2311.13081",
+  "text_chars_total": 45800,
+  "text_pages": 8,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RL04_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "be3ee490812fb0bdc9649977f72c2449a36ace100079d7e43bedb9f2bb511768",
+  "bytes": 4798045,
+  "canonical_category": "01_RL",
+  "openalex_id": "https://openalex.org/W4388964586",
+  "openalex_title": "Learning to Fly in Seconds",
+  "openalex_year": 2023,
+  "openalex_authors": "Jonas Eschmann; Dario Albani; Giuseppe Loianno"
+}

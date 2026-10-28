@@ -1,0 +1,51 @@
+{
+  "id": "MA05",
+  "category": "02_MARL协同",
+  "arxiv": "2401.01481",
+  "keywords": "MAPPO;MADDPG;UAV-UGV;聚类",
+  "relevance": "任务聚类与MARL联合规划的异构协同参考；核对地空协同与纯空中场景差异。",
+  "source_page": "https://arxiv.org/abs/2401.01481",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Brotee, Shamyo; Kabir, Farhan; Razzaque, Md. Abdur; Roy, Palash; Mamun-Or-Rashid, Md.; Hassan, Md. Rafiul; Hassan, Mohammad Mehedi",
+  "year": "2024",
+  "title": "Optimizing UAV-UGV Coalition Operations: A Hybrid Clustering and Multi-Agent Reinforcement Learning Approach for Path Planning in Obstructed Environment",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "02_MARL协同/MA05_2024_2401.01481.pdf",
+  "pdf_pages": 17,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2401.01481",
+      "http": 200,
+      "bytes": 3869397
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:11.308854",
+  "arxiv_version": "2401.01481",
+  "journal_reference": "",
+  "abstract": "Abstract: One of the most critical applications undertaken by coalitions of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is reaching predefined targets by following the most time-efficient routes while avoiding collisions. Unfortunately, UAVs are hampered by limited battery life, and UGVs face challenges in reachability due to obstacles and elevation variations. Existing literature primarily focuses on one-to-one coalitions, which constrains the efficiency of reaching targets. In this work, we introduce a novel approach for a UAV-UGV coalition with a variable number of vehicles, employing a modified mean-shift clustering algorithm to segment targets into multiple zones. Each vehicle utilizes Multi-agent Deep Deterministic Policy Gradient (MADDPG) and Multi-agent Proximal Policy Optimization (MAPPO), two advanced reinforcement learning algorithms, to form an effective coalition for navigating obstructed environments without collisions. This approach of assigning targets to various circular zones, based on density and range, significantly reduces the time required to reach these targets. Moreover, introducing variability in the number of UAVs and UGVs in a coalition enhances task efficiency by enabling simultaneous multi-target engagement. The results of our experimental evaluation demonstrate that our proposed method substantially surpasses current state-of-the-art techniques, nearly doubling efficiency in terms of target navigation time and task completion rate.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\MA05_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2401.01481",
+  "text_chars_total": 76027,
+  "text_pages": 17,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\MA05_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "488b7b8467ae677ffd0ce26a72dcb6aeda280e5d64412fc0b8366718c03a0613",
+  "bytes": 3869397,
+  "canonical_category": "02_MARL协同",
+  "openalex_id": "https://openalex.org/W4390601207",
+  "openalex_title": "Optimizing UAV-UGV Coalition Operations: A Hybrid Clustering and Multi-Agent Reinforcement Learning Approach for Path Planning in Obstructed Environment",
+  "openalex_year": 2024,
+  "openalex_authors": "Shamyo Brotee; Farhan Kabir; Md. Abdur Razzaque; Palash Roy; Md. Mamun-Or-Rashid; Md. Rafiul Hassan; Mohammad Mehedi Hassan"
+}

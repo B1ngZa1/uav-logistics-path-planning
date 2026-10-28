@@ -1,0 +1,237 @@
+{
+  "RL01": {
+    "openalex_id": "https://openalex.org/W4308797462",
+    "title_match": true,
+    "year_match": true,
+    "query": "https://api.openalex.org/works?search=title-fallback",
+    "fallback": "OpenAlex title search"
+  },
+  "RL02": {
+    "openalex_id": "https://openalex.org/W2781726626",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1801.01290?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+    "openalex_authors": "Tuomas Haarnoja; Aurick Zhou; Pieter Abbeel; Sergey Levine"
+  },
+  "RL03": {
+    "openalex_id": "https://openalex.org/W2787938642",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1802.09477?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Addressing Function Approximation Error in Actor-Critic Methods",
+    "openalex_authors": "Scott Fujimoto; Herke van Hoof; David Meger"
+  },
+  "RL04": {
+    "openalex_id": "https://openalex.org/W4388964586",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2311.13081?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Learning to Fly in Seconds",
+    "openalex_authors": "Jonas Eschmann; Dario Albani; Giuseppe Loianno"
+  },
+  "MA01": {
+    "openalex_id": "https://openalex.org/W4286748781",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2103.01955?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",
+    "openalex_authors": "Chao Yu; Akash Velu; Eugene Vinitsky; Gao, Jiaxuan; Yu Wang; Alexandre M. Bayen; Yi Wu"
+  },
+  "MA02": {
+    "openalex_id": "https://openalex.org/W2623431351",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1706.02275?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+    "openalex_authors": "Ryan Lowe; Yi Wu; Aviv Tamar; Jean Harb; Pieter Abbeel; Igor Mordatch"
+  },
+  "MA03": {
+    "openalex_id": "https://openalex.org/W2978148161",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1910.01465?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Reducing Overestimation Bias in Multi-Agent Domains Using Double Centralized Critics",
+    "openalex_authors": "Johannes Ackermann; Volker Gabler; Takayuki Osa; Masashi Sugiyama"
+  },
+  "MA04": {
+    "openalex_id": "https://openalex.org/W2794643322",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1803.11485?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "openalex_authors": "Tabish Rashid; Mikayel Samvelyan; Christian Schroeder de Witt; Gregory Farquhar; Jakob Foerster; Shimon Whiteson"
+  },
+  "MA05": {
+    "openalex_id": "https://openalex.org/W4390601207",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2401.01481?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Optimizing UAV-UGV Coalition Operations: A Hybrid Clustering and Multi-Agent Reinforcement Learning Approach for Path Planning in Obstructed Environment",
+    "openalex_authors": "Shamyo Brotee; Farhan Kabir; Md. Abdur Razzaque; Palash Roy; Md. Mamun-Or-Rashid; Md. Rafiul Hassan; Mohammad Mehedi Hassan"
+  },
+  "PA01": {
+    "openalex_id": "https://openalex.org/W6892048105",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1809.03531?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning",
+    "openalex_authors": "Sartoretti, Guillaume; Kerr, Justin; Shi, Yunfei; Wagner, Glenn; Kumar, T. K. Satish; Koenig, Sven; Choset, Howie"
+  },
+  "PA02": {
+    "openalex_id": "https://openalex.org/W3057565981",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2008.08835?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "EGO-Planner: An ESDF-free Gradient-based Local Planner for Quadrotors",
+    "openalex_authors": "Xin Zhou; Zhepei Wang; Hongkai Ye; Chao Xu; Fei Gao"
+  },
+  "PA03": {
+    "openalex_id": "https://openalex.org/W4393929849",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2404.01752?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Safe Interval RRT* for Scalable Multi-Robot Path Planning in Continuous Space",
+    "openalex_authors": "Joonyeol Sim; Joonkyung Kim; Changjoo Nam"
+  },
+  "PA04": {
+    "openalex_id": "https://openalex.org/W2969525674",
+    "title_match": true,
+    "year_match": true,
+    "query": "https://api.openalex.org/works?search=title-fallback",
+    "fallback": "OpenAlex title search"
+  },
+  "CO01": {
+    "openalex_id": "https://openalex.org/W2971985902",
+    "query": "https://api.openalex.org/works?search=Fast%20Trajectory%20Planning%20for%20Multiple%20Quadrotors%20using%20Relative%20Safe%20Flight%20Corridor",
+    "title_match": true,
+    "year_match": true,
+    "fallback": "OpenAlex title search"
+  },
+  "CO02": {
+    "openalex_id": "https://openalex.org/W4292199889",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2208.06950?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Multirotor Planning in Dynamic Environments using Temporal Safe Corridors",
+    "openalex_authors": "Charbel Toumieh; Alain Lambert"
+  },
+  "CO03": {
+    "openalex_id": "https://openalex.org/W4318142129",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2301.09758?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "A deep reinforcement learning approach to assess the low-altitude airspace capacity for urban air mobility",
+    "openalex_authors": "Asal Mehditabrizi; Mahdi Samadzad; Sina Sabzekar"
+  },
+  "CO04": {
+    "openalex_id": "https://openalex.org/W4296605336",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2209.09447?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Decentralized Deadlock-free Trajectory Planning for Quadrotor Swarm in Obstacle-rich Environments -- Extended version",
+    "openalex_authors": "Jung‐Won Park; Inkyu Jang; H. Jin Kim"
+  },
+  "SA01": {
+    "openalex_id": "https://openalex.org/W2616964725",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1705.10528?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Constrained Policy Optimization",
+    "openalex_authors": "Joshua Achiam; David Held; Aviv Tamar; Pieter Abbeel"
+  },
+  "SA02": {
+    "openalex_id": "https://openalex.org/W3120475579",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2101.05436?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Learning Safe Multi-Agent Control with Decentralized Neural Barrier Certificates",
+    "openalex_authors": "Zengyi Qin; Kaiqing Zhang; Yuxiao Chen; Jingkai Chen; Chuchu Fan"
+  },
+  "SA03": {
+    "openalex_id": "https://openalex.org/W2796305130",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1804.02238?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Energy Minimization for Wireless Communication with Rotary-Wing UAV",
+    "openalex_authors": "Yong Zeng; Jie Xu; Rui Zhang"
+  },
+  "RE01": {
+    "openalex_id": "https://openalex.org/W4287025291",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2108.06266?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+    "openalex_authors": "Lukas Brunke; Melissa Greeff; Adam W. Hall; Zhaocong Yuan; Siqi Zhou; Jacopo Panerati; Angela P. Schoellig"
+  },
+  "RE02": {
+    "openalex_id": "https://openalex.org/W4288099785",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2109.06325?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "safe-control-gym: a Unified Benchmark Suite for Safe Learning-based Control and Reinforcement Learning in Robotics",
+    "openalex_authors": "Zhaocong Yuan; Adam W. Hall; Siqi Zhou; Lukas Brunke; Melissa Greeff; Jacopo Panerati; Angela P. Schoellig"
+  },
+  "RE03": {
+    "openalex_id": "https://openalex.org/W3195968524",
+    "title_match": true,
+    "year_match": true,
+    "query": "https://api.openalex.org/works?search=title-fallback",
+    "fallback": "OpenAlex title search"
+  },
+  "RE04": {
+    "openalex_id": "https://openalex.org/W4297627396",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1911.10635?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms",
+    "openalex_authors": "Kaiqing Zhang; Zhuoran Yang; Tamer Başar"
+  },
+  "RE05": {
+    "openalex_id": "https://openalex.org/W4407759776",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2502.12875?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "A Survey on DRL based UAV Communications and Networking: DRL Fundamentals, Applications and Implementations",
+    "openalex_authors": "Wei Zhao; Shaoxin Cui; Wen Qiu; Zhaohui He; Zhi Liu; Xiao Zheng; Bomin Mao; Nei Kato"
+  },
+  "RE06": {
+    "openalex_id": "https://openalex.org/W4313530924",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2301.00912?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Distributed Machine Learning for UAV Swarms: Computing, Sensing, and Semantics",
+    "openalex_authors": "Yahao Ding; Zhaohui Yang; Quoc‐Viet Pham; Zhaoyang Zhang; Mohammad Shikh‐Bahaei"
+  },
+  "RL05": {
+    "openalex_id": "https://openalex.org/W4389666571",
+    "title_match": true,
+    "year_match": true,
+    "query": "https://api.openalex.org/works?search=title-fallback",
+    "fallback": "OpenAlex title search"
+  },
+  "MA06": {
+    "openalex_id": "https://openalex.org/W4224909140",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2204.08594?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "CoDe: A Cooperative and Decentralized Collision Avoidance Algorithm for Small-Scale UAV Swarms Considering Energy Efficiency",
+    "openalex_authors": "Shuangyao Huang; Haibo Zhang; Zhiyi Huang"
+  },
+  "SA04": {
+    "openalex_id": "https://openalex.org/W4415196376",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2504.03271?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Energy Aware and Safe Path Planning for Unmanned Aircraft Systems",
+    "openalex_authors": "Sebastian Gasche; Christian Kallies; Andreas Himmel; Rolf Findeisen"
+  },
+  "SA05": {
+    "openalex_id": "https://openalex.org/W3119887585",
+    "query": "https://api.openalex.org/works/https://doi.org/10.48550/arxiv.1909.12217?mailto=research@example.com",
+    "title_match": true,
+    "year_match": true,
+    "openalex_title": "Visual Exploration and Energy-aware Path Planning via Reinforcement Learning",
+    "openalex_authors": "Amir Niaraki; Jeremy Roghair; Ali Jannesari"
+  }
+}

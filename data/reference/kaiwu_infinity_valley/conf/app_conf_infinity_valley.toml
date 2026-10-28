@@ -1,0 +1,6 @@
+[infinity_valley]
+rl_helper = "kaiwudrl.server.aisrv.kaiwu_rl_helper_standard.KaiWuRLStandardHelper"
+
+[infinity_valley.policies.train_one]
+policy_builder = "kaiwudrl.server.aisrv.async_policy.AsyncBuilder"
+algo = "policy_gradient"

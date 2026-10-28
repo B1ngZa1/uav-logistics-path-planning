@@ -1,0 +1,58 @@
+# 无人机外卖配送 — 算法路由配置
+# Drone Food Delivery — Algorithm Routing Configuration
+# 每个算法映射到其对应的Python模块路径
+# Each algorithm maps to its corresponding Python module path
+
+[q_learning]
+# Q-learning智能体 / Q-learning Agent
+actor_agent = "agent_q_learning.agent.Agent"
+learner_agent = "agent_q_learning.agent.Agent"
+aisrv_agent = "agent_q_learning.agent.Agent"
+train_workflow = "agent_q_learning.workflow.train_workflow.workflow"
+eval_workflow = "agent_q_learning.workflow.train_workflow.workflow"
+exam_workflow = "agent_q_learning.workflow.train_workflow.workflow"
+
+[sarsa]
+# SARSA智能体 / SARSA Agent
+actor_agent = "agent_sarsa.agent.Agent"
+learner_agent = "agent_sarsa.agent.Agent"
+aisrv_agent = "agent_sarsa.agent.Agent"
+train_workflow = "agent_sarsa.workflow.train_workflow.workflow"
+eval_workflow = "agent_sarsa.workflow.train_workflow.workflow"
+exam_workflow = "agent_sarsa.workflow.train_workflow.workflow"
+
+[monte_carlo]
+# Monte Carlo智能体 / Monte Carlo Agent
+actor_agent = "agent_monte_carlo.agent.Agent"
+learner_agent = "agent_monte_carlo.agent.Agent"
+aisrv_agent = "agent_monte_carlo.agent.Agent"
+train_workflow = "agent_monte_carlo.workflow.train_workflow.workflow"
+eval_workflow = "agent_monte_carlo.workflow.train_workflow.workflow"
+exam_workflow = "agent_monte_carlo.workflow.train_workflow.workflow"
+
+[dqn]
+# DQN智能体 / DQN Agent
+actor_agent = "agent_dqn.agent.Agent"
+learner_agent = "agent_dqn.agent.Agent"
+aisrv_agent = "agent_dqn.agent.Agent"
+train_workflow = "agent_dqn.workflow.train_workflow.workflow"
+eval_workflow = "agent_dqn.workflow.train_workflow.workflow"
+exam_workflow = "agent_dqn.workflow.train_workflow.workflow"
+
+[a2c]
+# A2C智能体 / A2C Agent
+actor_agent = "agent_a2c.agent.Agent"
+learner_agent = "agent_a2c.agent.Agent"
+aisrv_agent = "agent_a2c.agent.Agent"
+train_workflow = "agent_a2c.workflow.train_workflow.workflow"
+eval_workflow = "agent_a2c.workflow.train_workflow.workflow"
+exam_workflow = "agent_a2c.workflow.train_workflow.workflow"
+
+[diy]
+# DIY智能体（空白模板） / DIY Agent (blank template)
+actor_agent = "agent_diy.agent.Agent"
+learner_agent = "agent_diy.agent.Agent"
+aisrv_agent = "agent_diy.agent.Agent"
+train_workflow = "agent_diy.workflow.train_workflow.workflow"
+eval_workflow = "agent_diy.workflow.train_workflow.workflow"
+exam_workflow = "agent_diy.workflow.train_workflow.workflow"

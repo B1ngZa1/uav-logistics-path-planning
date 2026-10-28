@@ -1,0 +1,51 @@
+{
+  "id": "RL03",
+  "category": "01_RL",
+  "arxiv": "1802.09477",
+  "keywords": "TD3;双Q;延迟更新",
+  "relevance": "理解MATD3的单智能体基础和价值过估计问题。",
+  "source_page": "https://arxiv.org/abs/1802.09477",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Fujimoto, Scott; van Hoof, Herke; Meger, David",
+  "year": "2018",
+  "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "01_RL/RL03_2018_1802.09477.pdf",
+  "pdf_pages": 15,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1802.09477",
+      "http": 200,
+      "bytes": 2744342
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:06.348734",
+  "arxiv_version": "1802.09477",
+  "journal_reference": "",
+  "abstract": "Abstract: In value-based reinforcement learning methods such as deep Q-learning, function approximation errors are known to lead to overestimated value estimates and suboptimal policies. We show that this problem persists in an actor-critic setting and propose novel mechanisms to minimize its effects on both the actor and the critic. Our algorithm builds on Double Q-learning, by taking the minimum value between a pair of critics to limit overestimation. We draw the connection between target networks and overestimation bias, and suggest delaying policy updates to reduce per-update error and further improve performance. We evaluate our method on the suite of OpenAI gym tasks, outperforming the state of the art in every environment tested.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RL03_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1802.09477",
+  "text_chars_total": 56549,
+  "text_pages": 15,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RL03_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "429a584222ffc9c318fde085f6558fd0d3a94dcba8ffe368caab8cf5dc3b6ae5",
+  "bytes": 2744342,
+  "canonical_category": "01_RL",
+  "openalex_id": "https://openalex.org/W2787938642",
+  "openalex_title": "Addressing Function Approximation Error in Actor-Critic Methods",
+  "openalex_year": 2018,
+  "openalex_authors": "Scott Fujimoto; Herke van Hoof; David Meger"
+}

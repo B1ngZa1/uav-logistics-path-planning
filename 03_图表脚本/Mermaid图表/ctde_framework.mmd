@@ -1,0 +1,20 @@
+graph TB
+    subgraph 集中式训练
+        A[全局状态] --> B[集中式Critic]
+        B --> C[价值评估]
+    end
+
+    subgraph 分散式执行
+        D[局部观测1] --> E[Actor1]
+        D2[局部观测2] --> E2[Actor2]
+        D3[局部观测N] --> E3[ActorN]
+    end
+
+    subgraph 奖励信号
+        F[环境奖励] --> G[共享奖励]
+        G --> B
+    end
+
+    E --> H[动作1]
+    E2 --> H2[动作2]
+    E3 --> H3[动作N]

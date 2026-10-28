@@ -1,0 +1,48 @@
+{
+  "id": "PA04",
+  "category": "03_多算法路径规划",
+  "arxiv": "2007.13065",
+  "keywords": "覆盖路径;VRP;BRKGA;3D mesh",
+  "relevance": "多算法融合与三维环境建模参考；巡检覆盖问题不同于配送。",
+  "source_page": "https://arxiv.org/abs/2007.13065",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Jing, Wei; Deng, Di; Wu, Yan; Shimada, Kenji",
+  "year": "2020",
+  "title": "Multi-UAV Coverage Path Planning for the Inspection of Large and Complex Structures",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "03_多算法路径规划/PA04_2020_2007.13065.pdf",
+  "pdf_pages": 7,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2007.13065",
+      "http": 200,
+      "bytes": 2352889
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:13.514126",
+  "arxiv_version": "2007.13065",
+  "journal_reference": "",
+  "abstract": "Abstract: We present a multi-UAV Coverage Path Planning (CPP) framework for the inspection of large-scale, complex 3D structures. In the proposed sampling-based coverage path planning method, we formulate the multi-UAV inspection applications as a multi-agent coverage path planning problem. By combining two NP-hard problems: Set Covering Problem (SCP) and Vehicle Routing Problem (VRP), a Set-Covering Vehicle Routing Problem (SC-VRP) is formulated and subsequently solved by a modified Biased Random Key Genetic Algorithm (BRKGA) with novel, efficient encoding strategies and local improvement heuristics. We test our proposed method for several complex 3D structures with the 3D model extracted from OpenStreetMap. The proposed method outperforms previous methods, by reducing the length of the planned inspection path by up to 48%",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\PA04_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2007.13065",
+  "text_chars_total": 33740,
+  "text_pages": 7,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\PA04_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "048bd503ad0be617d8f01b859d1b19abf0c369741887515fd5068fcb127a6ed0",
+  "bytes": 2352889,
+  "canonical_category": "03_多算法路径规划",
+  "openalex_id": "https://openalex.org/W2969525674"
+}

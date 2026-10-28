@@ -1,0 +1,196 @@
+{
+  "query": "multi UAV reinforcement learning path planning",
+  "timestamp": "2026-09-17T16:56:09.460505",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "multi UAV reinforcement learning path planning",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Reinforcement learning-based multi-strategy cuckoo search algorithm for 3D UAV path planning",
+        "authors": [
+          "Xiaobing Yu",
+          "Wenguan Luo"
+        ],
+        "year": 2023,
+        "citations": 109,
+        "doi": "10.1016/j.eswa.2023.119910",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.eswa.2023.119910"
+      },
+      {
+        "title": "Joint Optimization of Multi-UAV Target Assignment and Path Planning Based on Multi-Agent Reinforcement Learning",
+        "authors": [],
+        "year": 2019,
+        "citations": 0,
+        "doi": "10.1109/access.2019.2943253",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/access.2019.2943253"
+      },
+      {
+        "title": "Multi-UAV Path Planning for Wireless Data Harvesting With Deep Reinforcement Learning",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/ojcoms.2021.3081996",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/ojcoms.2021.3081996"
+      },
+      {
+        "title": "UAV Path Planning Based on Multi-Layer Reinforcement Learning Technique",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/access.2021.3073704",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/access.2021.3073704"
+      },
+      {
+        "title": "Multi-UAV Mobile Edge Computing and Path Planning Platform Based on Reinforcement Learning",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1109/tetci.2021.3083410",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/tetci.2021.3083410"
+      },
+      {
+        "title": "Reinforcement-Learning-Assisted Multi-UAV Task Allocation and Path Planning for IIoT",
+        "authors": [],
+        "year": 2024,
+        "citations": 0,
+        "doi": "10.1109/jiot.2024.3370152",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/jiot.2024.3370152"
+      },
+      {
+        "title": "Multi-UAV Adaptive Path Planning Using Deep Reinforcement Learning",
+        "authors": [],
+        "year": 2023,
+        "citations": 0,
+        "doi": "10.1109/iros55552.2023.10342516",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/iros55552.2023.10342516"
+      },
+      {
+        "title": "Multi-UAV Path Planning and Following Based on Multi-Agent Reinforcement Learning",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones8010018",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones8010018"
+      },
+      {
+        "title": "Multi-UAV Autonomous Path Planning in Reconnaissance Missions Considering Incomplete Information: A Reinforcement Learning Method",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/drones7010010",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones7010010"
+      },
+      {
+        "title": "Multi-UAV simultaneous target assignment and path planning based on deep reinforcement learning in dynamic multiple obstacles environments",
+        "authors": [],
+        "year": 2023,
+        "citations": 0,
+        "doi": "10.3389/fnbot.2023.1302898",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3389/fnbot.2023.1302898"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 10,
+      "filtered_irrelevant": 0,
+      "collapsed_duplicates": 0
+    }
+  }
+}

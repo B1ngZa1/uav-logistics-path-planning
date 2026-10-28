@@ -1,0 +1,52 @@
+{
+  "id": "MA04",
+  "category": "02_MARL协同",
+  "arxiv": "1803.11485",
+  "keywords": "QMIX;值分解;离散动作",
+  "relevance": "航层/路口离散动作候选；连续控制需离散化或分层，注意单调性限制。",
+  "source_page": "https://arxiv.org/abs/1803.11485",
+  "sources": [
+    "arxiv",
+    "official_publication"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Rashid, Tabish; Samvelyan, Mikayel; de Witt, Christian Schroeder; Farquhar, Gregory; Foerster, Jakob; Whiteson, Shimon",
+  "year": "2018",
+  "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "02_MARL协同/MA04_2018_1803.11485.pdf",
+  "pdf_pages": 14,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页与第二来源页/DOI页题名、作者、年份一致；PDF为公开版本; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1803.11485",
+      "http": 200,
+      "bytes": 3808951
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:11.103465",
+  "arxiv_version": "1803.11485",
+  "journal_reference": "",
+  "abstract": "Abstract: In many real-world settings, a team of agents must coordinate their behaviour while acting in a decentralised way. At the same time, it is often possible to train the agents in a centralised fashion in a simulated or laboratory setting, where global state information is available and communication constraints are lifted. Learning joint action-values conditioned on extra state information is an attractive way to exploit centralised learning, but the best strategy for then extracting decentralised policies is unclear. Our solution is QMIX, a novel value-based method that can train decentralised policies in a centralised end-to-end fashion. QMIX employs a network that estimates joint action-values as a complex non-linear combination of per-agent values that condition only on local observations. We structurally enforce that the joint-action value is monotonic in the per-agent values, which allows tractable maximisation of the joint action-value in off-policy learning, and guarantees consistency between the centralised and decentralised policies. We evaluate QMIX on a challenging set of StarCraft II micromanagement tasks, and show that QMIX significantly outperforms existing value-based multi-agent reinforcement learning methods.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\MA04_source.html",
+  "pdf_url": "https://arxiv.org/pdf/1803.11485",
+  "text_chars_total": 50675,
+  "text_pages": 14,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\MA04_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "3b26488b9e3279e9f290fe1d1d242e73ffaf6db2d84f28d23053733862f85d0b",
+  "bytes": 3808951,
+  "canonical_category": "02_MARL协同",
+  "openalex_id": "https://openalex.org/W2794643322",
+  "openalex_title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+  "openalex_year": 2018,
+  "openalex_authors": "Tabish Rashid; Mikayel Samvelyan; Christian Schroeder de Witt; Gregory Farquhar; Jakob Foerster; Shimon Whiteson"
+}

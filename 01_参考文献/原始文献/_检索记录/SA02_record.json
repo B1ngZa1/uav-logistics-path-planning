@@ -1,0 +1,51 @@
+{
+  "id": "SA02",
+  "category": "05_能耗安全约束",
+  "arxiv": "2101.05436",
+  "keywords": "CBF;decentralized;安全证书",
+  "relevance": "分布式安全过滤器与多机避碰约束；保证依赖模型和证书条件。",
+  "source_page": "https://arxiv.org/abs/2101.05436",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Qin, Zengyi; Zhang, Kaiqing; Chen, Yuxiao; Chen, Jingkai; Fan, Chuchu",
+  "year": "2021",
+  "title": "Learning Safe Multi-Agent Control with Decentralized Neural Barrier Certificates",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "05_能耗安全约束/SA02_2021_2101.05436.pdf",
+  "pdf_pages": 16,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2101.05436",
+      "http": 200,
+      "bytes": 2114346
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:22.451433",
+  "arxiv_version": "2101.05436",
+  "journal_reference": "",
+  "abstract": "Abstract: We study the multi-agent safe control problem where agents should avoid collisions to static obstacles and collisions with each other while reaching their goals. Our core idea is to learn the multi-agent control policy jointly with learning the control barrier functions as safety certificates. We propose a novel joint-learning framework that can be implemented in a decentralized fashion, with generalization guarantees for certain function classes. Such a decentralized framework can adapt to an arbitrarily large number of agents. Building upon this framework, we further improve the scalability by incorporating neural network architectures that are invariant to the quantity and permutation of neighboring agents. In addition, we propose a new spontaneous policy refinement method to further enforce the certificate condition during testing. We provide extensive experiments to demonstrate that our method significantly outperforms other leading multi-agent control approaches in terms of maintaining safety and completing original tasks. Our approach also shows exceptional generalization capability in that the control policy can be trained with 8 agents in one scenario, while being used on other scenarios with up to 1024 agents in complex multi-agent environments and dynamics.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\SA02_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2101.05436",
+  "text_chars_total": 55762,
+  "text_pages": 16,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\SA02_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "ee26b62e4d41db1c10b0aa40ae29ce03240bd2d1a01a15abd5f7fe591d46107b",
+  "bytes": 2114346,
+  "canonical_category": "05_能耗安全约束",
+  "openalex_id": "https://openalex.org/W3120475579",
+  "openalex_title": "Learning Safe Multi-Agent Control with Decentralized Neural Barrier Certificates",
+  "openalex_year": 2021,
+  "openalex_authors": "Zengyi Qin; Kaiqing Zhang; Yuxiao Chen; Jingkai Chen; Chuchu Fan"
+}

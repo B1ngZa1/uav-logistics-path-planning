@@ -1,0 +1,51 @@
+{
+  "id": "RE02",
+  "category": "06_综述基准",
+  "arxiv": "2109.06325",
+  "keywords": "safe-control-gym;benchmark;constraints",
+  "relevance": "比较学习控制与传统控制的基准；原环境含1D/2D四旋翼而非完整三维物流。",
+  "source_page": "https://arxiv.org/abs/2109.06325",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Yuan, Zhaocong; Hall, Adam W.; Zhou, Siqi; Brunke, Lukas; Greeff, Melissa; Panerati, Jacopo; Schoellig, Angela P.",
+  "year": "2021",
+  "title": "safe-control-gym: a Unified Benchmark Suite for Safe Learning-based Control and Reinforcement Learning in Robotics",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE02_2021_2109.06325.pdf",
+  "pdf_pages": 8,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2109.06325",
+      "http": 200,
+      "bytes": 1855032
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:24.675661",
+  "arxiv_version": "2109.06325",
+  "journal_reference": "",
+  "abstract": "Abstract: In recent years, both reinforcement learning and learning-based control -- as well as the study of their safety, which is crucial for deployment in real-world robots -- have gained significant traction. However, to adequately gauge the progress and applicability of new results, we need the tools to equitably compare the approaches proposed by the controls and reinforcement learning communities. Here, we propose a new open-source benchmark suite, called safe-control-gym, supporting both model-based and data-based control techniques. We provide implementations for three dynamic systems -- the cart-pole, the 1D, and 2D quadrotor -- and two control tasks -- stabilization and trajectory tracking. We propose to extend OpenAI's Gym API -- the de facto standard in reinforcement learning research -- with (i) the ability to specify (and query) symbolic dynamics and (ii) constraints, and (iii) (repeatably) inject simulated disturbances in the control inputs, state measurements, and inertial properties. To demonstrate our proposal and in an attempt to bring research communities closer together, we show how to use safe-control-gym to quantitatively compare the control performance, data efficiency, and safety of multiple approaches from the fields of traditional control, learning-based control, and reinforcement learning.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE02_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2109.06325",
+  "text_chars_total": 43229,
+  "text_pages": 8,
+  "title_pdf_match": false,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE02_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "bcfbb42c3ed7d1d4d414835df71edd1bbb83ea530b582736685afa1ea0a4f72a",
+  "bytes": 1855032,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W4288099785",
+  "openalex_title": "safe-control-gym: a Unified Benchmark Suite for Safe Learning-based Control and Reinforcement Learning in Robotics",
+  "openalex_year": 2021,
+  "openalex_authors": "Zhaocong Yuan; Adam W. Hall; Siqi Zhou; Lukas Brunke; Melissa Greeff; Jacopo Panerati; Angela P. Schoellig"
+}

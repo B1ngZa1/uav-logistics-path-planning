@@ -1,0 +1,196 @@
+{
+  "query": "urban air mobility airspace corridor altitude",
+  "timestamp": "2026-09-17T16:56:33.336585",
+  "exit_code": 0,
+  "diagnostics": "API 请求失败 (HTTP 429): Too Many Requests\n",
+  "stderr": "",
+  "result": {
+    "query": "urban air mobility airspace corridor altitude",
+    "cross_validated": [],
+    "openalex_only": [],
+    "anysearch_only": [
+      {
+        "title": "Urban Air Mobility: Opportunities and Obstacles",
+        "authors": [
+          "Adam Cohen",
+          "Susan Shaheen"
+        ],
+        "year": 2021,
+        "citations": 47,
+        "doi": "10.1016/b978-0-08-102671-7.10764-x",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/b978-0-08-102671-7.10764-x"
+      },
+      {
+        "title": "Automated flight planning of high-density urban air mobility",
+        "authors": [],
+        "year": 2021,
+        "citations": 0,
+        "doi": "10.1016/j.trc.2021.103324",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.trc.2021.103324"
+      },
+      {
+        "title": "Urban Air Mobility: Systematic Review of Scientific Publications and Regulations for Vertiport Design and Operations",
+        "authors": [],
+        "year": 2016,
+        "citations": 0,
+        "doi": "10.3390/drones6070179",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/drones6070179"
+      },
+      {
+        "title": "Digital Twin Approach for Integrated Airspace Management With Applications to Advanced Air Mobility",
+        "authors": [],
+        "year": 2023,
+        "citations": 0,
+        "doi": "10.1109/ojvt.2023.3312277",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/ojvt.2023.3312277"
+      },
+      {
+        "title": "On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm",
+        "authors": [],
+        "year": 2022,
+        "citations": 0,
+        "doi": "10.1016/j.tre.2022.102868",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.tre.2022.102868"
+      },
+      {
+        "title": "Airspace Geofencing and Flight Planning for Low-Altitude, Urban, Small Unmanned Aircraft Systems",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/app12020576",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/app12020576"
+      },
+      {
+        "title": "Scaling Constraints for Urban Air Mobility Operations: Air Traffic Control, Ground Infrastructure, and Noise",
+        "authors": [],
+        "year": 2018,
+        "citations": 0,
+        "doi": "10.2514/6.2018-3849",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.2514/6.2018-3849"
+      },
+      {
+        "title": "Recent Research Progress of Unmanned Aerial Vehicle Regulation Policies and Technologies in Urban Low Altitude",
+        "authors": [],
+        "year": 2020,
+        "citations": 0,
+        "doi": "10.1109/access.2020.2987622",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1109/access.2020.2987622"
+      },
+      {
+        "title": "Internet of Unmanned Aerial Vehicles—A Multilayer Low-Altitude Airspace Model for Distributed UAV Traffic Management",
+        "authors": [],
+        "year": null,
+        "citations": 0,
+        "doi": "10.3390/s19214779",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.3390/s19214779"
+      },
+      {
+        "title": "Traffic management and resource allocation for UAV-based parcel delivery in low-altitude urban space",
+        "authors": [],
+        "year": 2022,
+        "citations": 0,
+        "doi": "10.1016/j.trc.2022.103808",
+        "abstract": null,
+        "sources": [
+          "anysearch"
+        ],
+        "cross_validated": false,
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "url": "https://doi.org/10.1016/j.trc.2022.103808"
+      }
+    ],
+    "stats": {
+      "openalex_total": 0,
+      "anysearch_total": 10,
+      "cross_validated": 0,
+      "openalex_unique": 0,
+      "anysearch_unique": 10,
+      "filtered_irrelevant": 0,
+      "collapsed_duplicates": 0
+    }
+  }
+}

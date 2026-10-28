@@ -1,0 +1,46 @@
+{
+  "description": "光谷广场Zone A 2D网格地图数据 / Zone A (Guanggu Plaza) 2D Grid Map Data",
+  "grid_size": 40,
+  "cell_resolution_m": 5.0,
+  "source_manifest": "data/cache/osm_reference_scenes/ - OSM building data retrieved 2026-07-03",
+  "zone_2d_audit": "outputs/环境示意图_2D审核/zone_A_guanggu_core_2d.png",
+  "zone_3d_preview": "outputs/环境示意图_3D预览/zone_A_scene_lod0_preview.png",
+  "stats": {
+    "building_count": 837,
+    "road_count": 499,
+    "area_km2": 4.32,
+    "building_density_per_km2": 193.75,
+    "task_points": 3
+  },
+  "depot": [7, 6],
+  "merchants": [
+    {"id": 0, "name": "光谷步行街", "pos": [19, 18]},
+    {"id": 1, "name": "世界城广场", "pos": [24, 20]},
+    {"id": 2, "name": "资本大厦", "pos": [33, 10]},
+    {"id": 3, "name": "光谷国际广场", "pos": [16, 22]},
+    {"id": 4, "name": "鲁巷广场", "pos": [26, 14]}
+  ],
+  "delivery_points": [
+    {"id": 0, "name": "华中科技大学", "pos": [8, 28]},
+    {"id": 1, "name": "光谷软件园", "pos": [35, 24]},
+    {"id": 2, "name": "光谷金融港", "pos": [30, 6]},
+    {"id": 3, "name": "武汉大学信息学部", "pos": [5, 20]},
+    {"id": 4, "name": "光谷生物城", "pos": [20, 30]}
+  ],
+  "obstacles": {
+    "high_density_core": {"type": "rect", "x": [14, 28], "y": [8, 24], "description": "核心商圈密集建筑群"},
+    "residential_blocks": {"type": "rect", "x": [4, 12], "y": [10, 18], "description": "住宅区建筑群"},
+    "tech_park": {"type": "rect", "x": [30, 38], "y": [18, 28], "description": "科技园区建筑群"},
+    "campus_edge": {"type": "rect", "x": [2, 8], "y": [22, 30], "description": "大学校园边缘建筑"},
+    "industrial": {"type": "rect", "x": [28, 36], "y": [4, 10], "description": "工业区建筑群"},
+    "overpass_zone": {"type": "rect", "x": [20, 24], "y": [6, 10], "description": "立交桥区域"},
+    "railway": {"type": "line", "x": [10, 10], "y": [4, 16], "description": "轨道交通线"}
+  },
+  "no_fly_zones": [
+    {"name": "GPS多路径区", "type": "rect", "x": [14, 28], "y": [8, 24], "reason": "高楼群GPS信号干扰严重"},
+    {"name": "轨道硬隔离", "type": "line", "x": [10, 10], "y": [4, 16], "reason": "轨道交通上空禁飞"},
+    {"name": "立交动态交通", "type": "rect", "x": [20, 24], "y": [6, 10], "reason": "立交桥车辆密集区"},
+    {"name": "人群密集区", "type": "rect", "x": [16, 26], "y": [16, 22], "reason": "商圈步行街人流密集"}
+  ],
+  "boundary": {"type": "hard", "description": "地图外围不可通行"}
+}

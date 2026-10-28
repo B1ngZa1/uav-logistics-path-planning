@@ -1,0 +1,51 @@
+{
+  "id": "RE06",
+  "category": "06_综述基准",
+  "arxiv": "2301.00912",
+  "keywords": "UAV swarm;distributed learning;MARL",
+  "relevance": "无人机集群分布式学习、通信与感知联合设计背景。",
+  "source_page": "https://arxiv.org/abs/2301.00912",
+  "sources": [
+    "arxiv"
+  ],
+  "cross_validated": true,
+  "doi": "",
+  "authors": "Ding, Yahao; Yang, Zhaohui; Pham, Quoc-Viet; Zhang, Zhaoyang; Shikh-Bahaei, Mohammad",
+  "year": "2023",
+  "title": "Distributed Machine Learning for UAV Swarms: Computing, Sensing, and Semantics",
+  "venue": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages_biblio": "",
+  "pdf_path": "06_综述基准/RE06_2023_2301.00912.pdf",
+  "pdf_pages": 26,
+  "pdf_status": "可读-逐页文本提取成功",
+  "verification": "arXiv官方页作者/题名/年份已核验；尚未完成第二独立书目源交叉核验; OpenAlex 标题/年份与公开来源匹配",
+  "download_attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2301.00912",
+      "http": 200,
+      "bytes": 5238560
+    }
+  ],
+  "timestamp": "2026-09-17T16:56:29.259799",
+  "arxiv_version": "2301.00912",
+  "journal_reference": "",
+  "abstract": "Abstract: Unmanned aerial vehicle (UAV) swarms are considered as a promising technique for next-generation communication networks due to their flexibility, mobility, low cost, and the ability to collaboratively and autonomously provide services. Distributed learning (DL) enables UAV swarms to intelligently provide communication services, multi-directional remote surveillance, and target tracking. In this survey, we first introduce several popular DL algorithms such as federated learning (FL), multi-agent Reinforcement Learning (MARL), distributed inference, and split learning, and present a comprehensive overview of their applications for UAV swarms, such as trajectory design, power control, wireless resource allocation, user assignment, perception, and satellite communications. Then, we present several state-of-the-art applications of UAV swarms in wireless communication systems, such us reconfigurable intelligent surface (RIS), virtual reality (VR), semantic communications, and discuss the problems and challenges that DL-enabled UAV swarms can solve in these applications. Finally, we describe open problems of using DL in UAV swarms and future research directions of DL enabled UAV swarms. In summary, this survey provides a comprehensive survey of various DL applications for UAV swarms in extensive scenarios.",
+  "official_http": 200,
+  "page_evidence": "_检索记录\\RE06_source.html",
+  "pdf_url": "https://arxiv.org/pdf/2301.00912",
+  "text_chars_total": 144737,
+  "text_pages": 26,
+  "title_pdf_match": true,
+  "pdf_readability": "通过",
+  "preview": "_检索记录\\预览\\RE06_first.png",
+  "render_check": "全部页面低分辨率渲染成功；首页另存预览",
+  "sha256": "14b8e42d0f1429689980875da2549d71f55c28f6723761e651adf1e53753a9bf",
+  "bytes": 5238560,
+  "canonical_category": "06_综述基准",
+  "openalex_id": "https://openalex.org/W4313530924",
+  "openalex_title": "Distributed Machine Learning for UAV Swarms: Computing, Sensing, and Semantics",
+  "openalex_year": 2023,
+  "openalex_authors": "Yahao Ding; Zhaohui Yang; Quoc‐Viet Pham; Zhaoyang Zhang; Mohammad Shikh‐Bahaei"
+}
